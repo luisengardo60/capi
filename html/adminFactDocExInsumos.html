@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/cantvnetci.jpg">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/adminFactDocMenu.css">
+    <script src="../js/jquery.min.js"></script>.
+    <title>Documentación Insumos</title>
+</head>
+
+<body>
+    <b>Inicio</b><a class="uno" href="index.html">&#10132;</a>
+    <b>Menu Documentación</b><a class="uno" href="adminFactDocMenu.html">&#10132;</a>
+    <h1>Documentación Extraccion Insumos</h1>
+    <table>
+        <tr>
+            <th>Proceso CTM</th>
+            <th>Interfaz</th>
+            <th>Libreria<br> o Path</th>
+            <th>Servidor</th>
+            <th>Actividad</th>
+            <th>Frecuencia</th>
+            <th>Dependencias</th>
+            <th>Sucesores</th>
+            <th>Libreria salida</th>
+            <th>Base de Datos<br> que usa</th>
+            <th>Descripción</th>
+        </tr>
+        <tr>
+            <td>CFTTFUE001</td>
+            <td>ITTFDDFB</td>
+            <td>/PCANTV/EXTRACCION/INSUMOS/batch</td>
+            <td>SRVFT30</td>
+            <td>OTROS</td>
+            <td>EVENTUAL</td>
+            <td>A petición del Usuario</td>
+            <td>N/A</td>
+            <td>/data/insumos/ITTFDDFB/Input/Ready/*.txt</td>
+            <td>KP01CUS1; KP01CUS2; KP01CUS3</td>
+            <td>Envío diario de archivos de insumos tasados de  Kenan a Fraude</td>
+        </tr>
+        <tr>
+            <td>CFTSMUM001</td>
+            <td>ITSMDDFB</td>
+            <td>/PCANTV/EXTRACCION/INSUMOS/batch</td>
+            <td>SRVFT30</td>
+            <td>OTROS</td>
+            <td>MENSUAL</td>
+            <td>A petición del Usuario</td>
+            <td>N/A</td>
+            <td>/data/insumos/ITSMDDFB/Input/Ready/*.txt</td>
+            <td>KP01CUS1; KP01CUS2; KP01CUS3</td>
+            <td>Envío de arvhivos mensuales de suspenso y errores de CDM a fraude</td>
+        </tr>
+        <tr>
+            <td>CFTNFUE001</td>
+            <td>ITNFDDFB</td>
+            <td>/PCANTV/EXTRACCION/INSUMOS/batch</td>
+            <td>SRVFT30</td>
+            <td>OTROS</td>
+            <td>EVENTUAL</td>
+            <td>A petición del Usuario</td>
+            <td>N/A</td>
+            <td>/data/insumos/ITNFDDFB/Output/Ready/*.txt</td>
+            <td>KP01CUS1; KP01CUS2; KP01CUS3</td>
+            <td>Interfaz de envío diario de archivos de insumos transmitidos CDM a fraude</td>
+        </tr>
+        <tr>
+            <td>CFTXYUD001</td>
+            <td>ITXYDDFB</td>
+            <td>/PCANTV/EXTRACCION/INSUMOS/batch</td>
+            <td>SRVFT30</td>
+            <td>INTERFAZ</td>
+            <td>DIARIO</td>
+            <td>CFTREUD001</td>
+            <td>N/A</td>
+            <td>/data/extraccion/ITXYDDFB/Input/Ready/*.txt</td>
+            <td>KP01CUS1; KP01CUS2; KP01CUS3; KP01CAT; KP01ADM</td>
+            <td>DATA MART</td>
+        </tr>
+        <tr>
+            <td>CFTSBUC001</td>
+            <td>ITSBDDFB</td>
+            <td>/PCANTV/EXTRACCION/INSUMOS/batch</td>
+            <td>SRVFT30</td>
+            <td>INTERFAZ</td>
+            <td>DIARIO</td>
+            <td>CFTREUD001</td>
+            <td>N/A</td>
+            <td>/data/extraccion/ITXYDDFB/Input/Ready/*.txt</td>
+            <td>KP01CUS1; KP01CUS2; KP01CUS3; KP01CAT; KP01ADM</td>
+            <td>Interfaz de Suspenso de Kenan a Boss</td>
+        </tr>
+        <tr>
+            <td>CFTSCUD001</td>
+            <td>ITSCDDFB</td>
+            <td>/PCANTV/EXTRACCION/INSUMOS/batch</td>
+            <td>SRVFT30</td>
+            <td>OTROS</td>
+            <td>DIARIO</td>
+            <td>CFTRAUD007<br>CFTRAUD008<br>CFTRAUD009</td>
+            <td>N/A</td>
+            <td>/data/insumos/ITSCDDFB/Input/Output/*.txt</td>
+            <td>KP01CUS1; KP01CUS2; KP01CUS3</td>
+            <td>Proceso de extracción de todos los insumos de terceros (S900) que estan en suspenso dentro de Kenan/BP en la tabla
+            CDR_DATA_WORK, para ser enviados a Carriers en un formato txt.</td>
+        </tr>
+        <tr>
+            <td>CFTACUD001</td>
+            <td>ITACDDFB</td>
+            <td>/PCANTV/EXTRACCION/INSUMOS/batch</td>
+            <td>SRVFT30</td>
+            <td>INTERFAZ</td>
+            <td>DIARIO</td>
+            <td>CFTREUD001</td>
+            <td>N/A</td>
+            <td>/data/extraccion/insumos/ITACDDFB/Output/Ready/*.txt</td>
+            <td>KP01CUS1; KP01CUS2; KP01CUS3</td>
+            <td>INTERFAZ DE S900 Y OLD DE KENAN A CARRIERS</td>
+        </tr>
+        <tr>
+            <td>CFTVFUD001</td>
+            <td>ITVFDDFB</td>
+            <td>/PCANTV/EXTRACCION/INSUMOS/batch</td>
+            <td>SRVFT30</td>
+            <td>INTERFAZ</td>
+            <td>DIARIO</td>
+            <td>CFTREUD001</td>
+            <td>N/A</td>
+            <td></td>
+            <td>KP01CUS1; KP01CUS2; KP01CUS3; KP01CAT; KP01ADM</td>
+            <td>Suspenso vencidas Kenan a Fraude</td>
+        </tr>
+    </table>
+    </body>
+    </html>

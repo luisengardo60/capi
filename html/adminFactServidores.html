@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/linux.jpeg">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/menuLateral1.css">
+    <link rel="stylesheet" href="../css/googleApis.css">
+    <link rel="stylesheet" href="../css/cdnjscloudflareAjax.css">
+    <title>Servidores</title>
+</head>
+<body>
+    <!--<input type="checkbox" id="check">
+    <label for="check">
+      <p id="cancel">&#x02616;</p>
+      <p id="btn">&Congruent; </p>
+    </label>
+    <div class="sidebar">
+      <header><h3>Adminfact</h3></header>
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown-toggle-split"><a class="nav-link active" aria-current="page" href="../html/index.html"><span class="segundo">Menu C.A.P.I.</span></a></li>
+          <li><a class="dropdown-item" href="../html/adminFactOrganigrama.html"><span id="capi1">Organigrama</span></a></li>
+          <li><a class="dropdown-item" href="../html/adminFactMenuServidores.html"><span id="capi1">Servidores</span></a></li>
+          <li><a class="dropdown-item" href="../html/adminFactAplicaciones.html"><span id="capi1">Aplicaciones</span></a></li>
+          <li><a class="dropdown-item" href="../html/adminFactAreasAtencion.html"><span id="capi1">Áreas de Atención</span></a></li></ul></div><br><br>-->
+    <b id="uno">Menu CAPI</b><a href="index.html">&#10132;</a>
+    <b id="uno">Menu Servidores</b><a href="adminFactMenuServidores.html">&#10132;</a>
+    <b id="uno">Consultar</b><a href="adminFactConsultar.html">&#10132;</a>
+    <p class="sombra2">Servidores de Producción</p>
+    <table class="table table-success table-hover">
+    <thead>
+        <tr>
+            <th style="background:blue">Servidor</th>
+            <th style="background:blue">Base de Datos</th>
+            <th style="background:blue">Nombre del Servidor</th>
+            <th style="background:blue">Ip de Servicio</th>
+            <th style="background:blue">VLAN</th>
+            <th style="background:blue">Ip Administrativa</th>
+            <th style="background:blue">VLAN</th>
+        </tr>
+    </thead>
+    <tbody>    
+        <tr>
+            <td>KDM</td>
+            <td>Servidor de Aplicación</td>
+            <td>srvft20</td>
+            <td>161.196.11.181</td>
+            <td>53</td>
+            <td>10.0.0.126</td>
+            <td>701</td>
+        </tr>
+        <tr>
+            <td>KDM</td>
+            <td>Servidor de Aplicación</td>
+            <td>srvft25</td>
+            <td>161.196.189.184</td>
+            <td></td>
+            <td>10.0.0.16</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>KENAN</td>
+            <td>Servidor de Aplicación</td>
+            <td>srvft01</td>
+            <td>161.196.11.138</td>
+            <td>53</td>
+            <td>10.0.12.16</td>
+            <td>697</td>
+        </tr>
+        <tr>
+            <td>KENAN<br> (Catalogo de Interfaces)</td>
+            <td>Servidor Base de Datos</td>
+            <td>srvft02</td>
+            <td>161.196.11.143</td>
+            <td>53</td>
+            <td>10.0.0.122</td>
+            <td>699</td>
+        </tr>
+        <tr>
+            <td>CUS1</td>
+            <td>Servidor Base de Datos</td>
+            <td>srvft03</td>
+            <td>161.196.11.144</td>
+            <td>53</td>
+            <td>10.0.0.123</td>
+            <td>699</td>
+        </tr>
+        <tr>
+            <td>CUS2</td>
+            <td>Servidor Base de Datos</td>
+            <td>srvft04</td>
+            <td>161.196.11.145</td>
+            <td>53</td>
+            <td>10.0.0.124</td>
+            <td>699</td>
+        </tr>
+        <tr>
+            <td>CUS3</td>
+            <td>Servidor Base de Datos</td>
+            <td>srvft05</td>
+            <td>161.196.11.146</td>
+            <td>53</td>
+            <td>10.0.0.125</td>
+            <td>699</td>
+        </tr>
+        <tr>
+            <td>GENERATE y DATA FLOW<br> (Masivo/IDOC</td>
+            <td>Servidor de Aplicación</td>
+            <td>srvft30</td>
+            <td>161.196.11.194</td>
+            <td>53</td>
+            <td>10.1.95.39</td>
+            <td>699</td>
+        </tr>
+        <tr>
+            <td>GENERATE y DATA FLOW<br> (Corporativo/Medio Magnetico)</td>
+            <td>Servidor de Aplicación</td>
+            <td>srvft31</td>
+            <td>161.196.11.195</td>
+            <td>53</td>
+            <td>10.0.0.129</td>
+            <td>699</td>
+        </tr>
+</tbody>
+</table>
+ 
+    <p class="sombra2">Servidores de Producción</p>
+<table class="table table-primary table-hover">
+    <thead>
+        <tr>
+            <th style="background:blue">Servidor</th>
+            <th style="background:blue">Usuario</th>
+            <th style="background:blue">Password</th>
+            <th style="background:blue">Base de Datos</th>
+        </tr>
+    </thead>
+    <tbody>    
+        <tr>
+            <td>SRVFT01</td>
+            <td>kbpp01 / kbpltp</td>
+            <td>adm_F4CT</td>
+            <td>SAGENT@DDFP1ADM / ARBOR@KP01ADM / ARBOR@KP01CAT <br>
+            ARBOR@KP01INT / ARBOR@KP01CUS1/2/3</td>
+        </tr>
+        <tr>
+            <td>SRVFT20</td>
+            <td>appadm</td>
+            <td>Cantv_2010</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>SRVFT25</td>
+            <td>appadm</td>
+            <td>Cantv_2010</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>SRVFT30</td>
+            <td>ddfp01</td>
+            <td>system_2008</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>SRVFT30</td>
+            <td>ddfp02</td>
+            <td>system_2008</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>SRVFT30</td>
+            <td>ddfp03</td>
+            <td>system_2008</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>SRVFT30</td>
+            <td>ddfp04</td>
+            <td>system_2008</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>SRVFT30</td>
+            <td>ddfp05</td>
+            <td>system_2008</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>SRVFT30</td>
+            <td>ddfp06</td>
+            <td>system_2008</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>SRVFT31</td>
+            <td>ddfp01</td>
+            <td>Cantv123</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>SRVFT31</td>
+            <td>ddfp02</td>
+            <td>system_2008</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>SRVFT31</td>
+            <td>ddfp03</td>
+            <td>system_2008</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>SRVFT31</td>
+            <td>ddfp04</td>
+            <td>system_2008</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>SRVFT31</td>
+            <td>ddfp05</td>
+            <td>system_2008</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>SRVFT31</td>
+            <td>ddfp06</td>
+            <td>system_2008</td>
+            <td></td>
+        </tr>
+    </tbody>    
+    </table>
+    
+    <p class="sombra2">Rutas</p>
+    <table class="table table-primary table-hover">
+    <thead>
+        <tr>
+            <th style="background:blue">Servidor</th>
+            <th style="background:blue">Proceso</th>
+            <th style="background:blue">Ruta</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>srvft01</td>
+            <td>CFTSGUD001 (brsgkbpb) Segmentador</td>
+            <td>/prg/kbpp01/interfaces/insumos/BRSGKBPB/log</td>
+        </tr>
+        <tr>
+            <td>srvft01</td>
+            <td>archivos en Ready - Tasacion - Insumos</td>
+            <td>/appl/kbpp01/data/usage/ready</td>
+        </tr>
+    </tbody>
+    </table>
+<p class="sombra2">Base de Datos</p>
+    <img src="../img/BDARBOR.png" alt="ARBOR"><br>
+    <b id="uno">Menu CAPI</b><a href="index.html">&#10132;</a>
+    <b id="uno">Menu Servidores</b><a href="adminFactMenuServidores.html">&#10132;</a>
+    <b id="uno">Consultar</b><a href="adminFactConsultar.html">&#10132;</a>
+</body>
+</html>

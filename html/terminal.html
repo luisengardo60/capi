@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="../../Linux-ayudas/img/linux1.jpeg">
+    <link rel="stylesheet" href="../../Linux-ayudas/css/terminal.css">
+    <title>Terminal Linux</title>
+</head>
+<body>
+    <header>
+        <a href="index_linux.html">Linux Mint</a>
+        <img src="../../Linux-ayudas/img/Linux.jpg" alt="Linux" title="Linux">
+    
+    </header>
+    <section>
+        <article>
+    <p>&#x1F427 <b>arch</b> indicara la arquitectura de nuestro Linux</p>
+    <p class="uno">&#128421 luisengardo@luisengardo-ThinkPad-SL500:~/Descargas$ arch <br>
+        x86_64</p><hr>
+
+    <p>&#x1F427 <b>pwd</b> directorio donde estamos</p>
+    <p class="uno">&#128421 luisengardo@luisengardo-ThinkPad-SL500:~/Descargas$ pwd<br>
+        /home/luisengardo/Descargas
+    <hr>
+
+    <p>&#x1F427<b>cd ../..</b>retrocedera al direcotorio donde querramos llegar, en este caso home</p>
+    <p class="uno">&#128421 luisengardo@luisengardo-ThinkPad-SL500:~/Descargas$ pwd<br>
+        /home/luisengardo/Descargas<br>
+        luisengardo@luisengardo-ThinkPad-SL500:~/Descargas$ cd ../..<br>
+        luisengardo@luisengardo-ThinkPad-SL500:/home$ pwd<br>
+        /home
+        </p><hr>
+    <p>&#x1F427<b>pwd</b> lista directorio de trabajo actual</p>    
+    <p class="uno">&#128421 lisengardo@luisengardo-ThinkPad-SL500:~/Descargas$ pwd<br>
+        /home/luisengardo/Descargas</p>
+    <hr>
+    <p>&#x1F427<b>ls</b> muestra el contenido de un directorio</p>
+    <p class="uno">&#128421 luisengardo@luisengardo-ThinkPad-SL500:~$ ls<br>
+        Descargas  Documentos  Escritorio  Imágenes  Música  Plantillas  Público  Vídeos</p><hr>
+    
+    
+    <p>&#x1F427<b>🍿ls -l</b> 1ra. columna información tipo nodo (filenode) archivo o un directorio y sus permisos. En el siguiente ejemplo vemos que empieza con una d, esto quiere decir que es un directorio.<br>
+    2da. columna indica la cantidad de vinculos que existen en este archivo (2).<br>
+    3ra. columna indica quien es el owner (dueño) del archivo o directorio (luisengardo).<br>
+    4ta. columna indica el filesize (tamaño de archivo en bytes) (luisengardo 4096).<br>
+    5ta. columna fecha de creación del archivo o directorio (dic 10 21:23).<br>
+    6ta. columna nombre del archivo o directorio (Público).<br>
+    <p class="uno">&#128421 luisengardo@luisengardo-ThinkPad-SL500:~$ ls -l<br>
+        total 32<br>
+        drwxr-xr-x 2 luisengardo luisengardo 4096 dic 10 21:23 Público<br>
+        drwxr-xr-x 2 luisengardo luisengardo 4096 dic 10 21:23 Plantillas<br>
+        drwxr-xr-x 2 luisengardo luisengardo 4096 dic 10 21:23 Música<br>
+        drwxr-xr-x 2 luisengardo luisengardo 4096 dic 10 21:34 Imágenes<br>
+        drwxr-xr-x 2 luisengardo luisengardo 4096 dic 13 09:30 Escritorio<br>
+        drwxr-xr-x 5 luisengardo luisengardo 4096 dic 14 08:46 Vídeos<br>
+        drwxr-xr-x 2 luisengardo luisengardo 4096 dic 16 17:01 Descargas<br>
+        drwxr-xr-x 7 luisengardo luisengardo 4096 dic 16 17:01 Documentos<br>
+        </p><hr>
+
+    <p>&#x1F427<b>🍿ls -a</b> lista archivos o directorios ocultos</p>
+    <p class="uno">&#128421 luisengardo@luisengardo-ThinkPad-SL500:~$ ls -a<br>
+        <pre><font color="#729FCF"><b>.</b></font>              <font color="#729FCF">.bashrc</font>    <font color="#729FCF"><b>Descargas</b></font>   <font color="#729FCF"><b>.gnupg</b></font>       <span style="background-color:#4E9A06"><font color="#3465A4">.linuxmint</font></span>  <font color="#729FCF"><b>.pki</b></font>           <font color="#729FCF">.sudo_as_admin_successful</font>  <font color="#729FCF"><b>.vscode</b></font>               <font color="#729FCF"><b>.zowe</b></font><font color="#729FCF">
+<font color="#729FCF"><b>..</b></font>             <font color="#729FCF"><b>.cache</b></font>     .dmrc       .gtkrc-2.0</font>   <font color="#729FCF"><b>.local</b></font>      <font color="#729FCF"><b>Plantillas</b></font>     <font color="#729FCF"><b>.themes</b></font>                    <font color="#729FCF">.Xauthority</font> <font color="#729FCF">
+.bash_history</font>  <font color="#729FCF"><b>.cinnamon</b></font>  <font color="#729FCF"><b>Documentos</b></font>  <font color="#729FCF">.gtkrc-xfce</font>  <font color="#729FCF"><b>.mozilla</b></font>    <font color="#729FCF">.profile</font>       <font color="#729FCF"><b>.var</b></font>                       <font color="#729FCF">.xsession-errors</font><br><font color="#729FCF">.bash_logout</font>   <font color="#729FCF"><b>.config</b></font>    <font color="#729FCF"><b>Escritorio</b></font>  <font color="#729FCF"><b>Imágenes</b></font>     <font color="#729FCF"><b>Música</b></font>      <font color="#729FCF"><b>Público</b></font>        <font color="#729FCF"><b>Vídeos</b></font>                     <font color="#729FCF">.xsession-errors.old</font>
+            </pre><hr>
+
+<p>&#x1F427<b>ls -la</b> detalles de archivos ocultos</p>
+     <pre>&#128421<font color="lightgreen">luisengardo@luisengardo-ThinkPad-SL500</font><font color="white">:</font><font color="lightgreen">~</font><font color="white">$ ls -la
+total 148
+drwxr-xr-x 22 luisengardo luisengardo  4096 dic 16 06:53 <font color="#729FCF"><b>.</b></font>
+drwxr-xr-x  3 root        root         4096 dic 10 18:48 <font color="#729FCF"><b>..</b></font>
+-rw-------  1 luisengardo luisengardo   203 dic 16 11:05 .bash_history
+-rw-r--r--  1 luisengardo luisengardo   220 dic 10 18:48 .bash_logout
+-rw-r--r--  1 luisengardo luisengardo  3771 dic 10 18:48 .bashrc
+drwx------ 17 luisengardo luisengardo  4096 dic 16 16:20 <font color="#729FCF"><b>.cache</b></font>
+drwxrwxr-x  5 luisengardo luisengardo  4096 dic 10 21:30 <font color="#729FCF"><b>.cinnamon</b></font>
+drwxr-xr-x 20 luisengardo luisengardo  4096 dic 16 10:54 <font color="#729FCF"><b>.config</b></font>
+drwxr-xr-x  2 luisengardo luisengardo  4096 dic 16 17:01 <font color="#729FCF"><b>Descargas</b></font>
+-rw-r--r--  1 luisengardo luisengardo    27 dic 10 21:23 .dmrc
+drwxr-xr-x  7 luisengardo luisengardo  4096 dic 16 17:01 <font color="#729FCF"><b>Documentos</b></font>
+drwxr-xr-x  2 luisengardo luisengardo  4096 dic 13 09:30 <font color="#729FCF"><b>Escritorio</b></font>
+drwx------  3 luisengardo luisengardo  4096 dic 10 21:23 <font color="#729FCF"><b>.gnupg</b></font>
+-rw-r--r--  1 luisengardo luisengardo    22 dic 10 18:48 .gtkrc-2.0
+-rw-r--r--  1 luisengardo luisengardo   516 dic 10 18:48 .gtkrc-xfce
+drwxr-xr-x  2 luisengardo luisengardo  4096 dic 10 21:34 <font color="#729FCF"><b>Imágenes</b></font>
+drwxrwxrwx  4 luisengardo luisengardo  4096 dic 11 18:44 <span style="background-color:#4E9A06"><font color="#3465A4">.linuxmint</font></span>
+drwxrwxr-x  3 luisengardo luisengardo  4096 dic 10 21:23 <font color="#729FCF"><b>.local</b></font>
+drwx------  4 luisengardo luisengardo  4096 dic 11 04:16 <font color="#729FCF"><b>.mozilla</b></font>
+drwxr-xr-x  2 luisengardo luisengardo  4096 dic 10 21:23 <font color="#729FCF"><b>Música</b></font>
+drwx------  3 luisengardo luisengardo  4096 dic 11 03:13 <font color="#729FCF"><b>.pki</b></font>
+drwxr-xr-x  2 luisengardo luisengardo  4096 dic 10 21:23 <font color="#729FCF"><b>Plantillas</b></font>
+-rw-r--r--  1 luisengardo luisengardo   807 dic 10 18:48 .profile
+drwxr-xr-x  2 luisengardo luisengardo  4096 dic 10 21:23 <font color="#729FCF"><b>Público</b></font>
+-rw-r--r--  1 luisengardo luisengardo     0 dic 10 21:39 .sudo_as_admin_successful
+drwxr-xr-x  2 luisengardo luisengardo  4096 dic 10 21:24 <font color="#729FCF"><b>.themes</b></font>
+drwxr-xr-x  3 luisengardo luisengardo  4096 dic 11 03:12 <font color="#729FCF"><b>.var</b></font>
+drwxr-xr-x  5 luisengardo luisengardo  4096 dic 14 08:46 <font color="#729FCF"><b>Vídeos</b></font>
+drwxr-xr-x  3 luisengardo luisengardo  4096 dic 16 10:54 <font color="#729FCF"><b>.vscode</b></font>
+-rw-------  1 luisengardo luisengardo    71 dic 16 06:53 .Xauthority
+-rw-------  1 luisengardo luisengardo  8989 dic 16 20:18 .xsession-errors
+-rw-------  1 luisengardo luisengardo 13588 dic 14 20:49 .xsession-errors.old
+drwxr-xr-x  3 luisengardo luisengardo  4096 dic 11 03:45 <font color="#729FCF"><b>.zowe</b></font>
+<font color="lightgreen">luisengardo@luisengardo-ThinkPad-SL50</font>:<font color="#729FCF"><b>~</b></font>$ 
+        </pre><hr>
+
+<p>&#x1F427<b>🥤ls -r</b> Ordena en orden inverso el listado de archivos</p>
+<pre>&#128421<font color="lightgreen">luisengardo@luisengardo-ThinkPad-SL500</font><font color="white">:</font><font color="lightgreen">~</font><font color="white">$ ls -r</font>
+<font color="lightblue">Vídeos</font>  <font color="lightblue">Público</font>  <font color="lightblue">Plantillas</font>  <font color="lightblue">Música</font>  <font color="lightblue">Imágenes</font>  <font color="lightblue">Escritorio</font>  <font color="lightblue">Documentos</font>  <font color="lightblue">Descargas</font>
+<font color="lightgreen">luisengardo@luisengardo-ThinkPad-SL500</font>:<font color="#729FCF"><b>~</b></font>$ 
+    </pre><hr>
+
+<p>&#x1F427<b>ls -t</b> Ordena el listado de archivos conforme el mas reciente al inicio</p>
+<pre>&#128421<font color="lightgreen">luisengardo@luisengardo-ThinkPad-SL500</font>:<font color="#729FCF">~</font>$ ls -t
+<font color="lightblue">Documentos</font>  <font color="lightblue">Descargas</font>  <font color="lightblue">Vídeos</font>  <font color="lightblue">Escritorio</font>  <font color="lightblue">Imágenes</font>  <font color="lightblue">Música</font>  <font color="lightblue">Plantillas</font>  <font color="lightblue">Público</font>
+<font color="lightgreen">luisengardo@luisengardo-ThinkPad-SL500</font>:<font color="#729FCF">~</font>$ 
+    </pre><hr>
+
+<p>&#x1F427<b>sudo apt install ./nombre de la aplicación</b> Instalar una aplicación, ejemplo: instalar Visual Studio Code</p>
+
+<pre>&#128421<font color="#8AE234">luisengardo@luisengardo-ThinkPad-SL500</font>:<font color="#729FCF">~/Descargas</font>$ sudo apt install ./code_1.63.1-1639448820_amd64.deb
+    [sudo] contraseña para luisengardo:         
+    Leyendo lista de paquetes... Hecho
+    Creando árbol de dependencias       
+    Leyendo la información de estado... Hecholuisengardo@luisengardo-ThinkPad-SL500:~$ sudo su
+    [sudo] contraseña para luisengardo:         
+    root@luisengardo-ThinkPad-SL500:/home/luisengardo# exit
+    exit
+    luisengardo@luisengardo-ThinkPad-SL500:~$ 
+    
+    
+    Nota, seleccionando «code» en lugar de «./code_1.63.1-1639448820_amd64.deb»
+    Se instalarán los siguientes paquetes NUEVOS:
+      code
+    0 actualizados, 1 nuevos se instalarán, 0 para eliminar y 25 no actualizados.
+    Se utilizarán 339 MB de espacio de disco adicional después de esta operación.
+    Des:1 /home/luisengardo/Descargas/code_1.63.1-1639448820_amd64.deb code amd64 1.63.1-1639448820 [81,1 MB]
+    Seleccionando el paquete code previamente no seleccionado.
+    (Leyendo la base de datos ... 318640 ficheros o directorios instalados actualmente.)
+    Preparando para desempaquetar .../code_1.63.1-1639448820_amd64.deb ...
+    Desempaquetando code (1.63.1-1639448820) ...
+    Configurando code (1.63.1-1639448820) ...
+    Procesando disparadores para mime-support (3.64ubuntu1) ...
+    Procesando disparadores para gnome-menus (3.36.0-1ubuntu1) ...
+    Procesando disparadores para shared-mime-info (1.15-1) ...
+    Procesando disparadores para desktop-file-utils (0.24+linuxmint1) ...
+    <font color="#FCE94F"><b>W: </b></font>Repository is broken: code:amd64 (= 1.63.1-1639448820) has no Size information
+    <font color="#8AE234">luisengardo@luisengardo-ThinkPad-SL500</font>:<font color="#729FCF">~/Descargas</b></font>$ 
+    </pre><br>
+
+    <p>&#x1F427<b>sudo apt remove ./nombre de la aplicación</b> Desinstalar una aplicación.</p>
+
+
+    <hr>
+
+    <p>&#x1F427<b> sudo su</b> Cambiar a superusuario</p>
+    <pre>&#128421<font color="#8AE234">luisengardo@luisengardo-ThinkPad-SL500</font>:<font color="#729FCF">~</font>$ sudo su
+[sudo] contraseña para luisengardo:         
+root@luisengardo-ThinkPad-SL500:/home/luisengardo# exit
+exit
+<font color="#8AE234">luisengardo@luisengardo-ThinkPad-SL500</font>:<font color="#729FCF">~</font>$ </pre>
+<hr>
+
+<p>&#x1F427<b> cal, cal 12 2022</b> Listara un calendario</p>
+<pre>&#128421<font color="#8AE234"><b>luisengardo@luisengardo-ThinkPad-SL500</b></font>:<font color="#729FCF"><b>~</b></font>$ cal
+    Diciembre 2021     
+ do lu ma mi ju vi sá  
+           1  2  3  4  
+  5  6  7  8  9 10 11  
+ 12 13 14 15 16 17 18  
+ 19 20 <span style="background-color:#FFFFFF"><font color="#3F3F3F">21</font></span> 22 23 24 25  
+ 26 27 28 29 30 31     
+                       
+ <font color="#8AE234"><b>luisengardo@luisengardo-ThinkPad-SL500</b></font>:<font color="#729FCF"><b>~</b></font>$ cal 12 2022
+    Diciembre 2022     
+ do lu ma mi ju vi sá  
+              1  2  3  
+  4  5  6  7  8  9 10  
+ 11 12 13 14 15 16 17  
+ 18 19 20 21 22 23 24  
+ 25 26 27 28 29 30 31  
+                       
+ <font color="#8AE234"><b>luisengardo@luisengardo-ThinkPad-SL500</b></font>:<font color="#729FCF"><b>~</b></font>$ 
+ </pre><hr>
+
+<p>&#x1F427 Manual I Terminal Linux<a href="../../Linux-ayudas/datos/linux-commands-handbook.pdf" target="_blank">&#10132</a></p>
+
+<p>&#x1F427 Manual II Terminal Linux<a href="../../Linux-ayudas/datos/LinuxManual.pdf" target="_blank">&#10132</a></p><br>
+        
+        
+    </section>
+</article>
+<a href="index_linux.html">Linux Mint</a>
+</body>
+</html>

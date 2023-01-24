@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>New Copy</title>
+		<link rel="stylesheet" href="../css/kenan_mainframe.css" type/css">
+		<link rel="shortcut icon" type="image/x-icon" href="../img/images.dinosauro.jpg";>
+		<img src="../img/images.dinosauro.jpg" alt="cantv" style="float:right ;width:40px;height:40px;">
+		<b>Menu Mainframe</b><a href="../html/Menu_Main1.html">&#10132</a>
+		<b>Menu CAPI</b><a href="../html/index.html">&#10132</a>
+		<h1>Gerencia Sistemas Gestión Empresarial<br>                   
+			Normas y procedimentos para el usuario de Ambiente</h1>
+		
+	</head>
+
+<body>
+	<p class="primero">Instruccio&#769n New Copy</p>
+	<p> Cuando los analistas de pruebas nos solicitan en ENDEVOR un move de un programa tipo COBCICS, procederemos asi&#769:</p> 
+
+<pre><b>A.-</b> Ingresar al Mainframe ambiente ESA1, opcio&#769n <b>A</b> APLIC. ESA1 y opcio&#769n <b>D</b> ENDEVOR realizar la accio&#769n move solicitada por el analista de pruebas,<br> pondremos de ejemplo al programa <b>OABA0001</b> tipo COBCICS.</pre>
+<hr />
+<pre><b>B.-</b> Finalizada la accio&#769n move en ENDEVOR, ingresar al CICSNATT entrar con su usuario, borrar pantalla, e ingresar lo siguiente:
+<div>
+CEMT I PROG(OABA0001) 
+
+  I PROG(OABA0001)                                                              
+  STATUS:  RESULTS - OVERTYPE TO MODIFY                                         
+   Prog(OABA0001) Len(0000000) Cob Pro Ena Pri    Ced
+
+   CEMT I PROG(OABA0001) 
+
+  I PROG(OABA0001)                                                              
+  STATUS:  RESULTS - OVERTYPE TO MODIFY                                         
+   Prog(OABA0001) Len(0000000) Cob Pro Ena Pri <b>NEW</b> Ced                          
+           
+
+<b>Programa que se le ralizó el New Copy  = OABA0001</b>  
+</div>
+<hr />
+
+<mark><b>NOTA</mark></b> Mandar correo a todos los analistas de pruebas indicandoles el final de la tarea.</pre> 
+
+	
+<mark><b>Fin del proceso</b></p></mark>
+</body>
+</html>

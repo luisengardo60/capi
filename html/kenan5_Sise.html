@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title>SISE</title>
+		<link rel="stylesheet" href="../css/kenan_mainframe.css" type/css">
+		<link rel="shortcut icon" type="image/x-icon" href="../img/images.dinosauro.jpg";>
+		<img src="../img/newcantv.jpg" style="float:right ;width:60px;height:60px;">
+		<b>Menu Mainframe</b><a href="../html/Menu_Main1.html">&#10132</a>
+		<b>Menu CAPI</b><a href="../html/index.html">&#10132</a>
+		<h1>Gerencia Sistemas Gestión Empresarial<br>                   
+			Normas y procedimentos para el usuario de Ambiente</h1>
+			
+	</head>
+
+<body>
+	<p class="primero">SISE / OACSE</p>
+
+	<p><b>Entrar al servidor SESPE02 y realizar lo siguiente:</b></p>
+    <pre><b>        Usuario ctmagent<br>
+	Clave   Cantv2017</b><br>
+	Al entrar estaremos en:
+	<b>/home/ctmagent</b><br>
+	Nos ubicaremos en el siguiente directorio:
+	<b>cd sise/batch</b>, al consultar con <b>pwd</b> estaremos en <b>/usr/users/ctmagent/sise/batch</b><br>
+	Procedemos a ejecutar el siguiente job:
+	<p><b>1. ./DOASSD001.SH</b> al finalizar mostrara&#769 en pantalla lo siguiente:</pre> 
+
+	<img src="../img/Siseoacse.jpg"><br clear="both"></br>
+	Copiamos la imagen y la colocaremos en la solicitud del analista de prueba.	
+
+	<p><b>2.-</b><b>Procesar en Mainframe CSIOAD04</b>
+
+	<p><b>3.-</b><b>Procesar en el SESPE02 ./DSSOAD002.SH</b>
+
+	 
+<p><b><mark>FIN DEL PROCESO</mark></b></p>
+<pre><b>
+
+<b>NOTA:</b> 
+Para enviar un correo al usuario que proceso SISE/OACSE,  con el sysout de la corrida
+
+1.- ./DOASSD001.SH > SISESYSOUT.txt
+2.- MAINFRAAME CSIOAD04
+3.- ./DSSOAD002.SH >> SISESYSOUT.txt
+4.- mailx -s "Salida Interzaf SISE/OACSE" lgarci19@cantv.com.ve < SISESYSOUT.txt
+</pre></b>
+</body>
+</html>

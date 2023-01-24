@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<title>Facturación Normal</title>
+		<link rel="stylesheet" href="../css/kenan_mainframe.css" type/css">
+		<link rel="shortcut icon" type="image/x-icon" href="../img/images.dinosauro.jpg";>
+		<img src="../img/newcantv.jpg" alt="cantv" style="float:right ;width:60px;height:60px;">
+		<b>Menu Principal</b><a href="../html/Menu_Main1.html">&#10132</a>
+		<b>Menu Facturación</b><a href="../html/kenan2_Facturacion.html">&#10132</a>
+		<b>Menu Capi</b><a href="../html/index.html">&#10132</a>
+		<h1>Gerencia Sistemas Gestión Empresarial<br>                   
+			Normas y procedimentos para el usuario de Ambiente</h1>
+	</head>
+
+<body>
+	<p class="primero">Facturacio&#769n Normal</p>
+	<p><b><ins>Pasos para facturar.</ins></b></p>
+	<p><b>1.-</b> En la herramienta Consultas Ronald, verificar si la cuenta a procesar existe, y comprobar si tiene SIN_SEC_NO,<br>
+	 si no posee esta informacio&#769n puede ser que la cuenta a procesar es nueva,  vea el siguiente modelo: </p>
+<img src="../img/Factu1.JPG" style="float:left ;width:410px;height:300px;"><br clear="both"></br>
+
+<p><b>2.-</b> Al finalizar la consulta en la herramienta Consultas Ronald, arrojara&#769 el siguiente reporte:</p>
+<img src="../img/Factu2.jpg"><br clear="both"></br>
+
+<p><b>3.-</b> Para nuestro ejemplo no tiene SIN_SEC_NO, por lo tanto facturamos, en putty, en caso de tener <br>
+ SIN_SEC_NO verificamos en que mes quedo y le consultaremos al analista las veces a facturar, hecho esto, accedemos al srvft51:</p>
+<img src="../img/Factu3.jpg"><br clear="both"></br>
+
+<p><b>4.-</b> Estando en el SRVFT51/User: ctmft, procederemos a ejecutar el script <ins>factura.sh</ins>:</p>
+<img src="../img/Factu4.jpg"><br clear="both"></br>
+
+<p><b>5.-</b> El script <ins>factura.sh</ins>, realizara&#769 las siguientes preguntas:</p>
+<img src="../img/Factu5.jpg"><br clear="both"></br>
+
+<p><b>Para este caso la cuenta pertenece al CUS3 servidor 5, si fuera para el CUS1 el servidor sera&#769 el 3.</b></p>	
+
+<p><b>6.-</b> Si el proceso marcha bien se debe de mostrar la cuenta a facturar de esta&#769 forma:</p>
+<img src="../img/Factu6.jpg"><br clear="both"></br>
+
+<p><b>7.-</b> Al finalizar el script factura.sh, se mostrara&#769 como sigue:</p>
+<img src="../img/Factu8.jpg"><br clear="both"></br>
+
+<p><b>8.-</b> Al consultar por la herramienta de Consultas Ronald la cuenta a facturar se mostrara&#769 como sigue:</p>
+<img src="../img/Factu7.jpg"><br clear="both"></br>
+
+<p><b>Esta&#769 informacio&#769n anexarla a la solicitud del analista de prueba.<br>		
+<mark>Fin del proceso</b></p></mark>
+<a href="#"><img src="../img/Arrow_top.jpg" title="Ir" style="width:40px;height:50px;position: fixed; bottom: 2px; right: 1%;"/></a>
+</body>
+</html>

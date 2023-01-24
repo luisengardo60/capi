@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title>Masiva</title>
+		<link rel="stylesheet" href="../css/kenan_mainframe.css" type/css">
+		<link rel="shortcut icon" type="image/x-icon" href="../img/images.dinosauro.jpg";>
+		<img src="../img/newcantv.jpg" style="float:right ;width:60px;height:60px;">
+		<b>Menu Mainframe</b><a href="../html/Menu_Main1.html">&#10132</a>
+		<b>Menu CAPI</b><a href="../html/index.html">&#10132</a>
+		<b>Menu Extracciones</b><a href="../html/kenan3_Extraccion.html">&#10132</a>
+		<h1>Gerencia Sistemas Gestión Empresarial<br>                   
+			Normas y procedimentos para el usuario de Ambiente</h1>
+			
+	</head>
+
+<body>
+	<p class="primero">Pasos para la extraccio&#769n Masiva</p>
+	
+<p><b>1.-</b> En la herramienta Consultas Ronald, verificar si la cuenta a procesar concuerda con los datos que indica el analista,<br>
+	  ver siguiente modelo:<br>
+	  <img src="../img/Extram11.jpg" style="float:left ;width:510px;height:350px;"></p><br clear="both"></br>
+	  <br>
+	  <img src="../img/Extram2.jpg"></p><br clear="both"></br>
+
+<p><b>2.-</b> Si no posee esta&#769 informacio&#769n, por favor consulte en el TOAD con el usuario arbor, base de datos KP01CUS3 </p><br clear="both"></br>
+
+<p><b>3.-</b> Realizados los pasos de verificacio&#769n de la cuenta, proceder a la carga en BIP_EVENTUAL con la <br>
+ herramienta de Consultas Ronald:</p>
+ <img src="../img/Extram3.jpg" style="float:left ;width:510px;height:350px;"><br clear="both"></br>
+
+<p><b>4.-</b> Accesamos al servidor <b>srvft15</b>, y procesamos <b>crea_saldo_convenio.sh</b> </p>
+ <img src="../img/Extram4.jpg"><br clear="both"></br>
+ 
+ <p><b>5.-</b> Realizara&#769 dos preguntas, la primera fecha con formato <b>YYYYMMDD</b> en nuestro caso colocamos <b>20140729</b>,<br>
+ y la segunda <b>Introduzca ciclo o consecutivo</b>, en nuestro ejemplo fue <b>O9</b></p>
+ <img src="../img/Extram5.jpg"><br clear="both"></br>
+ <b>NOTA:</b><ins>En el caso del mes de <b>Febrero</b> Normal la <b>fecha=AAAAMM28</b> si es Bisiesto <b>fecha=AAAAMM29</b>,<br> para el resto de los meses <b>fecha=AAAAMM29</b></ins>
+
+<p><b>6.-</b> Ahora vamos a Control-M/Enterprise y antes de ordenar la cadena de extraccio&#769n por favor verifcar que las condiciones<br> de fecha no exista&#769n, ver ejemplo: </p> 
+ <img src="../img/Extrac17.jpg"><br clear="both"></br>
+ <img src="../img/Extrac8.jpg"><br clear="both"></br>
+ <img src="../img/Extrac9.jpg"><br clear="both"></br>
+
+<p><b>7.-</b> Ordenamos la cadena de extraccio&#769n Masiva y adicionamos las condiciones para dar inicio, ver ejemplo: </p> 
+ <img src="../img/Extram6.jpg"><br clear="both"></br>
+ <img src="../img/Extram7.jpg"><br clear="both"></br>
+ <img src="../img/Extram8.jpg"><br clear="both"></br>
+
+
+<p><b>8.-</b> Finalizada la cadena de Extraccio&#769n Masiva en Control-m/Enterprise, creamos ONDEMAND, tomando como variables el archivo generado en el Mainframe,  ver ejemplo: </p> 
+ <img src="../img/Extram9.jpg"><br clear="both"></br>
+
+ <p><b>9.-</b> En el Mainframe, usamos Control-M, procesamos el siguiente job, modificando los set var, ver ejemplo: </p>
+ <img src="../img/Extram10.jpg"><br clear="both"></br>
+ 
+<p><b><mark>FIN DEL PROCESO</mark></b></p>
+<a href="#"><img src="../img/Arrow_top.jpg" title="Ir" style="width:40px;height:50px;position: fixed; bottom: 2px; right: 1%;"/></a>
+</body>
+</html>

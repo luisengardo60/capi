@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>Medios Magneticos</title>
+		<link rel="stylesheet" href="../css/kenan_mainframe.css" type/css">
+		<link rel="shortcut icon" type="image/x-icon" href="../img/images.dinosauro.jpg";>
+		<img src="../img/newcantv.jpg" style="float:right ;width:60px;height:60px;">
+		<b>Menu Mainframe</b><a href="../html/Menu_Main1.html">&#10132</a>
+		<b>Menu CAPI</b><a href="../html/index.html">&#10132</a>
+		<b>Menu Extracciones</b><a href="../html/kenan3_Extraccion.html">&#10132</a>
+		<h1>Gerencia Sistemas Gestión Empresarial<br>                   
+			Normas y procedimentos para el usuario de Ambiente</h1>
+		
+	</head>
+
+<body>
+	<p class="primero">Pasos para la extraccio&#769n Medios Magneticos</p>
+
+	<p><b>1.-</b>Esta&#769 extraccio&#769n, solo se realizara&#769 cuando lo solicite el analista de pruebas y que sea Corporativa</p>
+
+	<p><b>2.-</b> Realizar los pasos que se describen en la Extraccio&#769n Corporativa, el cambio importante es a la hora de procesar en el servidor <b><mark>srvft15</mark></b> el proceso <b><mark>crea_saldo_convenio.sh</mark></b>, cuando pida la fecha se le colocara&#769 la u&#769ltima fecha que tenga la cuenta, ver ejemplo para la cuenta <b>1013121507</b><br>
+	<br> <br/>
+	<img src="../img/Extramm1.jpg"><br clear="both"></br>
+
+<p>Cuando solicite <b><mark>Introduzca fecha de ciclo formato YYYYMMDD</mark></b> se colocara&#769 20160522, y cuando pida <b><mark>Introduzca ciclo o consecutivo siguiente #</b></mark> se solocara&#769 para este caso el nu&#769mero <b><mark>22</b></mark> que le corresponde al di&#769a<br>
+
+<p><b>3.-</b> En el TOAD entrar al CUS1 o CUS3 segu&#769n sea el caso, entrar en la tabla ODS_FACTURAS_MM, en la pesta&ntilde;a data llenar
+los siguientes campos:<br> <br/>
+<img src="../img/Extramm3.jpg"><br clear="both"></br>
+
+<p><b>4.-</b> Finalizada la cadena de Extraccio&#769n Corporativa, se procesara&#769 ONDEMAND, ver <b><mark>punto No. 9</mark></b> de los pasos para la Extraccio&#769n Corporativa, luego, procedemos a ordenar en Control-m/Enterprice la cadena de <b>Medios Magneticos</b>, la fecha que usaremos ha de ser la misma que la Extraccio&#769n Corporativa,  ver ejemplo:<br>
+<br> <br/>
+ 
+ <img src="../img/Extramm2.jpg"><br clear="both"></br>
+
+<p><b>4.-</b>Al finalizar la cadena de Extraccio&#769n Medios MAgneticos generara&#769 un archivo en Mainframe:<br>
+<b>HFTMM.SJBP2000.MEDMAGNE.EXT0XXXX.G0031V00</b>  </p> 
+ 
+<p><b><mark>FIN DEL PROCESO</mark></b></p>
+<a href="#"><img src="../img/Arrow_top.jpg" title="Ir" style="width:40px;height:50px;position: fixed; bottom: 2px; right: 1%;"/></a>
+</body>
+</html>

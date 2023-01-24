@@ -1,0 +1,1 @@
+<!--<b class="uno">Adminfact</b><a class="dos" href="../html/indexAdminfact.html">&#10132</a><br>--><!--<p><marquee behavior="alternate", scrollamount="4", loop="2">prueba</marquee>-->

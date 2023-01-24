@@ -1,0 +1,80 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Login Usuarios Adminfact</title>
+    <link rel="stylesheet" href="../css/adminFactSeguridad.css" type/css">
+    <link rel="shortcut icon" type="image/x-icon" href="../img/newcantv.jpg" ;>
+    <!--<img src="../img/Cabecera_cantv_new.JPG" style="float:left;width:100%;height:70px;">
+    <!--<img src="img_kenan\cabezal_bolivariano200v3.jpg" style="float:left;width:1270px;height:70px;">-->
+    <p>
+        <br>
+       <!-- <b>Gerencia Gestio&#769n de Soluciones TI</b><br>
+        <b>Gerencia Sistemas</b></br>-->
+        <b>&#x1F1FB;&#x1F1EA; &#x1F427 CAPI (Coordinación Administración Plataformas Integradas) &#x1F427 &#x1F1FB;&#x1F1EA;</b>
+    </p>
+    <!--<img src="https://portalmc.cantv.com.ve/cabecera_gobenlinea.gif" style="float:center;width:1100px;height:50px;">-->
+</head>
+
+<body>
+    <!--<left><embed wmode="transparent" src="http://www.poodwaddle.com/clock10" width="220" height="220" type="application/x-shockwave-flash" bgcolor="#FFFFFF" /></left></embed>
+    <div style="text-align:left;width:420px;height:100px;padding:1em;"><a style="text-decoration:none;" href="http://www.zeitverschiebung.net/es/city/3646738"></div>>-->
+
+
+   <!-- <p style="color:black;font-size:22px;text-align:center;"><b>C.A.N.T.V. Caracas, Venezuela</p></b>-->
+    <p><b>Adminfact</b></p>
+    <!-- <h3>Ingrese sus Datos</h3>-->
+   <form name="login">
+        <!--<table width="500" border="0" ; style="font-size:20px;text-align:left" ;>-->
+            <table>
+            <tr>
+                <th><h4>Usuario</h4></th>
+                <td><input name="usuario" type="text" class="Input" value="" size="12"></td>
+            </tr>
+            <tr>
+                <th><h4>Clave</h4></th>
+                <td><input name="password" type="password" class="Input" value="" size="12"></td>
+            </tr>
+            <tr>
+                <td><input value="Entrar" target="_parent" onclick="Login()" type="button" class="boton"></td>
+                <td><input type="reset" name="Borrar" id="Borrar" value="Reset" class="boton"></td>
+            </tr>
+        </table>
+    </form>
+        <iframe src="http://www.zeitverschiebung.net/clock-widget-iframe-v2?language=es&timezone=America%2FCaracas" width="100%"
+            height="120px" frameborder="0" seamless></iframe>
+    <br> </br>
+   <!-- <a style="color:black;" target="_blank" href="http://www.google.co.ve/">Ir a Google</a>
+      <a style="color:black;" target="_blank" href="http://www.google.co.ve/">Ir a Google</a>-->
+        <script language="JavaScript">
+function Login(){ 
+var done=0; 
+var usuario=document.login.usuario.value; 
+var password=document.login.password.value; 
+if (usuario=="lgarci19" && password=="Cantv2022") { window.location="file:../html/index1.html"; } 
+  else if (usuario=="mvega1" && password=="Cantv2022") { window.location="file:../html/index1.html"; } 
+  else if (usuario=="omarin" && password=="Cantv2022") { window.location="file:../html/index1.html"; }
+  else if (usuario=="apere7" && password=="Cantv2022") { window.location="file:../html/index1.html"; } 
+  else if (usuario=="crinco" && password=="Cantv2022") { window.location="file:../html/index1.html"; }
+  else if (usuario=="jberna" && password=="Cantv2022") { window.location="file:../html/index1.html"; }
+  else if (usuario=="atoro03" && password=="Cantv2022") { window.location="file:../html/index1.html"; }
+  else if (usuario=="jmarin10" && password=="Cantv2022") { window.location="file:../html/index1.html"; }
+  else{ alert("Por favor ingrese nuevamente sus Datos."); }
+endif 
+
+if (usuario=="" && password=="") { 
+window.location="errorpopup.html"; 
+
+} 
+} 
+        </script>
+        <script language="Javascript">
+ Begin
+            document.oncontextmenu = function () { return false }
+// End 
+        </script>
+</body>
+
+</html>
