@@ -16,7 +16,7 @@ header {
     background-size: cover ;
     font-size: 30px;
     position: fixed;
-    width: 1600px;
+    width: 1350px;
     margin: 0px;
     padding-left: 0em;
     padding-right: 0em;
@@ -25,9 +25,9 @@ header {
 }
 
 .uno {  width: 100%;}
-section { width: 99em; margin: auto;  }
+section { width: 74.5em; margin: auto;  }
 
-article { padding-top: 16em; 
+article { padding-top: 10em; 
           }
 
 h1 {
@@ -86,14 +86,14 @@ a:hover {
 
 table {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    width: 1250px;
+    width: 1200px;
    /* border-collapse: collapse;
     /*border: 3px solid black;*/
    }
 
 th {
     padding: 0px;
-    width: 0%;
+    width: 5%;
     font-size:18px;
     text-align: center;
     color: white;
@@ -102,8 +102,8 @@ th {
 td {
     border: 3px solid blue;
     padding-left: 10px;
-    width: 1000px;
-    font-size: 17px;
+    width: 70px;
+    font-size: 16px;
     text-align: center;
     color: white;
     border: 5px ridge black;

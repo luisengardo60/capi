@@ -11,7 +11,7 @@
     <title>Status</title>
 </head>
 <body>  
-    <a href="index.html">Inicio&#10132;</a>
+    <a href="../index.html">Inicio&#10132;</a>
     <table class="table table-info table-hover">
         <thead> 
         <tr>
@@ -41,7 +41,56 @@
             kbpltp 10942 1 0 May 16 ? 385:25 LTP ltp09 5
             kbpltp 10916 1 0 May 16 ? 610:00 LTP ltp03 5</pre>
         </td>
-        </tr>            
+        </tr> 
+        <tr>
+            <td>
+                <b>Security Server</b><br>Para consultar conectarse al <b>srvft01</b> ir a la ruta <b>cd utils/Menu</b> ejecutar el shell <b>menuini.sh</b><br> tipear <b>opción 1</b>.- Security Server, y en el sub-menu la <b>opción 3</b>.- Check process Security server, se presentara el siguiente resultado<br><pre>Check Process S.S ....
+                Los procesos de KenanFX estan arriba y OK
+                
+                Finalizo proceso, pulse Return ....</pre>
+            </td>
+            </tr>
+            <tr>
+            <td>
+                <b>Tuxedo/Middleware</b><br>Para consultar conectarse al <b>srvft01</b> ir a la ruta <b>cd utils/Menu</b> ejecutar el shell <b>menuini.sh</b><br>
+                tipear <b>opción 5</b>.- Verificar procesos Middleware, dara el siguiente resultado<br><pre>Chequeando Total de procesos Activos (Middleware) ....
+                
+                
+                Total de procesos activos (Middleware) : 112 TODO OK!
+                
+                Finalizo Proceso, pulse Return ....</pre>
+            </td>
+            </tr> 
+            <td>
+                <pre><b>Consultar Tiempo de respuesta de los servidores en red</b><br>Conectarse al servidor <b>srvft01</b> y ir a la ruta <b>cd /usr/sbin</b> dar <b>ping srvft02/03/04/05/20/30/31</b>
+                    SRVFT01 Adecuado OK
+                    SRVFT02 Adecuado OK
+                    SRVFT03 Adecuado OK
+                    SRVFT04 Adecuado OK
+                    SRVFT05 Adecuado OK
+                    SRVFT20 Adecuado OK
+                    SRVFT30 Adecuado OK
+                    SRVFT31 Adecuado OK<br>
+                    <!-- 161.196.189.241(EDI) OK-->
+Si desea relizar la consulta de todos los servidores desde el servidor <b>srvft01</b> usar el comando ssh, como sigue en el siguiente ejemplo
+<b>ssh appadm@srvft20</b> luego ir a la ruta <b>cd /usr/sbin</b> y proceder con el comando <b>ping srvft20</b> para este ejemplo</pre>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <pre>
+Espacio en Disco
+<b>Srvft01 / srvft02 / srvft03 / srvft04 / srvft05 / srvft20 / sevrt30 / srvft31 </b>Comando<b> df -k </b><br> Este resultado se dio en el servidor<b> srvft01</b> :
+                    /appl/kbpp01/u01 (/dev/vgkbpdatao/lvappkbpp01) : 527703424 total allocated Kb
+                    74023776 free allocated Kb
+                    453679648 used allocated Kb
+                    85 % allocation used
+
+   <b>NOTA</b> Si el espacio usado es mayor o igual a <b>90%</b>, favor colocarlo en el status.
+
+                </pre>
+            </td>
+        </tr>          
         <tr>
             <td><b>Base de Datos</b><br><pre>srvft01 35: <b>sqlplus sagent/sagent@ddfp1adm</b>
         
@@ -70,25 +119,7 @@
             <b>NOTA</b> Al pasarlo al <b>status </b>por favor borrar los password </pre>
         </td>
         </tr>
-        <tr>
-        <td>
-            <b>Security Server</b><br>Para consultar conectarse al <b>srvft01</b> ir a la ruta <b>cd utils/Menu</b> ejecutar el shell <b>menuini.sh</b><br> tipear <b>opción 1</b>.- Security Server, y en el sub-menu la <b>opción 3</b>.- Check process Security server, se presentara el siguiente resultado<br><pre>Check Process S.S ....
-            Los procesos de KenanFX estan arriba y OK
-            
-            Finalizo proceso, pulse Return ....</pre>
-        </td>
-        </tr>
-        <tr>
-        <td>
-            <b>Tuxedo/Middleware</b><br>Para consultar conectarse al <b>srvft01</b> ir a la ruta <b>cd utils/Menu</b> ejecutar el shell <b>menuini.sh</b><br>
-            tipear <b>opción 5</b>.- Verificar procesos Middleware, dara el siguiente resultado<br><pre>Chequeando Total de procesos Activos (Middleware) ....
-            
-            
-            Total de procesos activos (Middleware) : 112 TODO OK!
-            
-            Finalizo Proceso, pulse Return ....</pre>
-        </td>
-        </tr>
+      
         <tr><td><pre><b>KDM (SRVFT20) Producción, aplicativo y BD Operativa 100%</b>   Conectarse <b>srvft20</b> tipear comando "date" tomar fecha y colocarla en el status</pre>
         </td>
         </tr>
@@ -120,35 +151,6 @@
                     [srvft31]:/appl/ddfp01><br>
                     Si estas en la instancia <b>ddfp01</b> y quieres ir a la instancia <b>ddfp02 </b>usa el comando <b>su - ddfp02 </b>solicitará el password</pre>
         </td>
-        <tr>
-            <td>
-                <pre><b>Consultar Tiempo de respuesta de los servidores en red</b><br>Conectarse al servidor <b>srvft01</b> y ir a la ruta <b>cd /usr/sbin</b> dar <b>ping srvft02/03/04/05/20/30/31</b>
-                    SRVFT01 Adecuado OK
-                    SRVFT02 Adecuado OK
-                    SRVFT03 Adecuado OK
-                    SRVFT04 Adecuado OK
-                    SRVFT05 Adecuado OK
-                    SRVFT20 Adecuado OK
-                    SRVFT30 Adecuado OK
-                    SRVFT31 Adecuado OK<br>
-                    <!-- 161.196.189.241(EDI) OK-->
-Si desea relizar la consulta de todos los servidores desde el servidor <b>srvft01</b> usar el comando ssh, como sigue en el siguiente ejemplo
-<b>ssh appadm@srvft20</b> luego ir a la ruta <b>cd /usr/sbin</b> y proceder con el comando <b>ping srvft20</b> para este ejemplo</pre>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <pre>
-Espacio en Disco
-<b>Srvft01 / srvft02 / srvft03 / srvft04 / srvft05 / srvft20 / sevrt30 / srvft31 </b>Comando<b> df -k </b><br> Este resultado se dio en el servidor<b> srvft01</b> :
-                    /appl/kbpp01/u01 (/dev/vgkbpdatao/lvappkbpp01) : 527703424 total allocated Kb
-                    74023776 free allocated Kb
-                    453679648 used allocated Kb
-                    85 % allocation used
-
-                </pre>
-            </td>
-        </tr>
         <tr>
             <td><pre><b>Cadena de Facturación</b><br>
             <b>Procesos de Tasación</b>

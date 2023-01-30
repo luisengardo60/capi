@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     /*-webkit-box-sizing: border-box;
-    -moz-box-sizing: boder-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;*/
 }
 
@@ -36,12 +36,12 @@ body {
 .fecha {
     font-family: Oswald, Arial;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: green;
     /*margin-bottom: 5px;
     background: rgba(0,0,0,.5);*/
     background: transparent;
-    padding: 20px;
+    padding: 15px;
     width: 100%;
 }
 
@@ -49,7 +49,7 @@ body {
     font-family: Oswald, Arial;
     width: 100%;
     padding: 5px;
-    font-size: 2.5em;
+    font-size: 2em;
     text-align: center;
     /*background: rgba(0,0,0,.5);
     background: transparent;*/
@@ -72,7 +72,7 @@ body {
 
 .reloj .segundos,
 .reloj .ampm {
-    font-size: 1.1rem;
+    font-size: 1rem;
     display: block;
     color: yellowgreen;/*
     background: white;
