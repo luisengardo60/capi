@@ -21,7 +21,7 @@ body {
 .widget {
   width: 45%;
   margin-top: 8em;
-  background-color: darkgreen;
+  background-color: transparent;
   float:left;
   border-radius: 12px;
   /*marin:32px*/
@@ -36,7 +36,7 @@ body {
   font-family: Oswald, Arial;
   text-align: center;
   font-size: 1.2em;
-  color: lightgreen;
+  color: white;
   /*margin-bottom: 5px;
   background: rgba(0,0,0,.5);*/
   background: transparent;
@@ -73,7 +73,7 @@ body {
 .reloj .ampm {
   font-size: 1.1rem;
   display: block;
-  color: yellowgreen;/*
+  color: white;/*
   background: white;
   border-radius: 2px;*/
 }

@@ -9,7 +9,7 @@
 body {
   text-align: center;
   background-repeat: no-repeat;
-  color: blue;
+  color: cyan;
 }
 
 .wrap {
@@ -36,7 +36,7 @@ body {
   font-family: Oswald, Arial;
   text-align: center;
   font-size: 1.2em;
-  color: darkblue;
+  color: cyan;
   /*margin-bottom: 5px;
   background: rgba(0,0,0,.5);*/
   background: transparent;
@@ -54,16 +54,19 @@ body {
   background: transparent;*/
 }
 
-/*.horas {
-  background: black;
-  border-radius: 4px;
-  border-radius: 8px;
+.horas {
+  background: transparent;
+  font-size: 2.5rem;
+    display: block;
+    color: blue;
 }
 
 .minutos {
-  background: grey;
-  border-radius: 8px;
-}*/
+  background: transparent;
+  font-size: 2.5rem;
+    display: block;
+    color: blue;
+}
 
 .reloj .caja-segundos {
   display: inline-block;
@@ -73,7 +76,7 @@ body {
 .reloj .ampm {
   font-size: 1.1rem;
   display: block;
-  color: black;/*
+  color:white;/*
   background: white;
   border-radius: 2px;*/
 }

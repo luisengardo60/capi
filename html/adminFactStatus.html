@@ -11,7 +11,7 @@
     <title>Status</title>
 </head>
 <body>  
-    <a href="../index.html">Inicio&#10132;</a>
+    <a href="../index.php">Inicio&#10132;</a>
     <table class="table table-info table-hover">
         <thead> 
         <tr>
@@ -21,15 +21,15 @@
         <tbody>
         <tr>
             <td>
-                <pre><b>VPN</b> Operativa 100%</pre>
+	           <b>VPN</b><br> <pre>Operativa 100%</pre>
             </td>
         </tr>
         <tr>
-            <td><pre><b>KENAN</b><br> (SRVFT01, SRVFT02, SRVFT03, SRVFT04, SRVFT05) Producción. Servicios, aplicativo y Bases de Datos Operativa 100% <br>Bastara con conectarse al <b>srvft01</b></pre>
+            <td><b>KENAN ACTIVOS</b><br><pre>(SRVFT01, SRVFT02, SRVFT03, SRVFT04, SRVFT05 Producción) <br>Servicios, aplicativo y Bases de Datos Operativa 100% <br>Solo bastara con conectarse al <b>srvft01</b> y tipear el comando <b>date</b> </pre>
             </td>
         </tr>
         <tr>
-            <td><pre><b>KENAN</b><br> LTP Operativa 100%, Conectarse al <b>srvft01</b> tipear el comando <b>ps -fu kbpltp</b>
+            <td><b>KENAN LTP</b><br><pre> LTP Operativa 100%, Conectarse al <b>srvft01</b> tipear el comando <b>ps -fu kbpltp</b>
             UID PID PPID C STIME TTY TIME COMMAND
             kbpltp 10910 1 0 May 16 ? 405:09 LTP ltp02 4
             kbpltp 10940 1 0 May 16 ? 419:33 LTP ltp08 4
@@ -44,7 +44,7 @@
         </tr> 
         <tr>
             <td>
-                <b>Security Server</b><br>Para consultar conectarse al <b>srvft01</b> ir a la ruta <b>cd utils/Menu</b> ejecutar el shell <b>menuini.sh</b><br> tipear <b>opción 1</b>.- Security Server, y en el sub-menu la <b>opción 3</b>.- Check process Security server, se presentara el siguiente resultado<br><pre>Check Process S.S ....
+                <b>SECURITY SERVER</b><br>Para consultar conectarse al <b>srvft01</b> ir a la ruta <b>cd utils/Menu</b> ejecutar el shell <b>menuini.sh</b><br> tipear <b>opción 1</b>.- Security Server, y en el sub-menu la <b>opción 3</b>.- Check process Security server, se presentara el siguiente resultado<br><pre>Check Process S.S ....
                 Los procesos de KenanFX estan arriba y OK
                 
                 Finalizo proceso, pulse Return ....</pre>
@@ -52,7 +52,7 @@
             </tr>
             <tr>
             <td>
-                <b>Tuxedo/Middleware</b><br>Para consultar conectarse al <b>srvft01</b> ir a la ruta <b>cd utils/Menu</b> ejecutar el shell <b>menuini.sh</b><br>
+                <b>TUXEDO/MIDDELWARE</b><br>Para consultar conectarse al <b>srvft01</b> ir a la ruta <b>cd utils/Menu</b> ejecutar el shell <b>menuini.sh</b><br>
                 tipear <b>opción 5</b>.- Verificar procesos Middleware, dara el siguiente resultado<br><pre>Chequeando Total de procesos Activos (Middleware) ....
                 
                 
@@ -62,7 +62,7 @@
             </td>
             </tr> 
             <td>
-                <pre><b>Consultar Tiempo de respuesta de los servidores en red</b><br>Conectarse al servidor <b>srvft01</b> y ir a la ruta <b>cd /usr/sbin</b> dar <b>ping srvft02/03/04/05/20/30/31</b>
+                <b>PING SERVIDORES<br><pre> Consultar Tiempo de respuesta de los servidores en red</b><br>Conectarse al servidor <b>srvft01</b> y ir a la ruta <b>cd /usr/sbin</b> dar <b>ping srvft02/03/04/05/20/30/31</b>
                     SRVFT01 Adecuado OK
                     SRVFT02 Adecuado OK
                     SRVFT03 Adecuado OK
@@ -78,8 +78,8 @@ Si desea relizar la consulta de todos los servidores desde el servidor <b>srvft0
         </tr>
         <tr>
             <td>
-                <pre>
-Espacio en Disco
+               
+<b>ESPACIO EN DISCO</b><pre>
 <b>Srvft01 / srvft02 / srvft03 / srvft04 / srvft05 / srvft20 / sevrt30 / srvft31 </b>Comando<b> df -k </b><br> Este resultado se dio en el servidor<b> srvft01</b> :
                     /appl/kbpp01/u01 (/dev/vgkbpdatao/lvappkbpp01) : 527703424 total allocated Kb
                     74023776 free allocated Kb
@@ -92,7 +92,7 @@ Espacio en Disco
             </td>
         </tr>          
         <tr>
-            <td><b>Base de Datos</b><br><pre>srvft01 35: <b>sqlplus sagent/sagent@ddfp1adm</b>
+            <td><b>BASE DE DATOS (ORACLE)</b><br><pre>srvft01 35: <b>sqlplus sagent/sagent@ddfp1adm</b>
         
             SQL*Plus: Release 9.2.0.8.0 - Production on Lun Oct 10 09:06:13 2022
         
@@ -115,16 +115,19 @@ Espacio en Disco
             SQL>
             SQL> connect <b>arbor/kenan_hpux_2008@kp01cat</b>
             Connected.
+            SQL>
+            SQL> connect <b>arbor/kenan_hpux_2008@kp01init</b>
+            Connected.
             SQL><br>
             <b>NOTA</b> Al pasarlo al <b>status </b>por favor borrar los password </pre>
         </td>
         </tr>
       
-        <tr><td><pre><b>KDM (SRVFT20) Producción, aplicativo y BD Operativa 100%</b>   Conectarse <b>srvft20</b> tipear comando "date" tomar fecha y colocarla en el status</pre>
+        <tr><td><b>KDM (SRVFT20)<br><pre>Conectarse <b>srvft20</b> tipear comando "date" tomar fecha y colocarla en el status<br> Producción, aplicativo y BD Operativa 100%</b>   </pre>
         </td>
         </tr>
         <tr>
-            <td><pre><b>DATA FLOW (SRVFT30)</b><br> Instancias (ddfp01, ddfp02, ddfp03, ddfp04, ddfp05 y ddfp06), servicios y aplicativos Operativa 100%<br>Consultar los servicios en cada una de las instancias con <b>sagent stat</b> debe ilustrase como sigue<br>[srvft30]:/appl/ddfp01# sagent stat
+            <td><b>DATA FLOW (SRVFT30)</b><br><pre> Instancias (ddfp01, ddfp02, ddfp03, ddfp04, ddfp05 y ddfp06), servicios y aplicativos Operativa 100%<br>Consultar los servicios en cada una de las instancias con <b>sagent stat</b> debe ilustrase como sigue<br>[srvft30]:/appl/ddfp01# sagent stat
                     MW-RPC Server is running (PID=28093)
                     DFS Manager is running (PID=28402)
                     DFS is running (PID=28508)
@@ -136,13 +139,13 @@ Espacio en Disco
         </tr>
         <tr>
             <td>
-                <pre><b>Generate</b> Operativa 100%</pre>
+				<b>GENERATE</b><br><pre> Operativa 100%</pre>
             </td>
         </tr>
         
         <tr>
             <td>
-                <pre><b>DATA FLOW (SRVFT31)</b><br> Instancias (ddfp01, ddfp02, ddfp03, ddfp04, ddfp05 y ddfp06), servicios, aplicativos Operativa 100%<br>Consultar los servicios en cada una de las instancias con <b>sagent stat</b> debe ilustrase como sigue<br>[srvft31]:/appl/ddfp01> sagent stat
+                <b>DATA FLOW (SRVFT31)</b><br><pre> Instancias (ddfp01, ddfp02, ddfp03, ddfp04, ddfp05 y ddfp06), servicios, aplicativos Operativa 100%<br>Consultar los servicios en cada una de las instancias con <b>sagent stat</b> debe ilustrase como sigue<br>[srvft31]:/appl/ddfp01> sagent stat
                     MW-RPC Server is running (PID=21222)
                     DFS Manager is running (PID=21554)
                     DFS is running (PID=21620)
@@ -152,7 +155,7 @@ Espacio en Disco
                     Si estas en la instancia <b>ddfp01</b> y quieres ir a la instancia <b>ddfp02 </b>usa el comando <b>su - ddfp02 </b>solicitará el password</pre>
         </td>
         <tr>
-            <td><pre><b>Cadena de Facturación</b><br>
+            <!--<td><pre><b>Cadena de Facturación</b><br>
             <b>Procesos de Tasación</b>
             Archivos SRDF OK
             Archivos para tasar KDM a KENAN OK
@@ -217,12 +220,12 @@ Espacio en Disco
             <b>Interfaz Ganado y no Facturado</b>
             (Ejecuta después de ciclo 28)
             
-            <b>Limpieza de Balance</b> srvft01 cd /home/ctmagent/ctm/sysout ls -ltr CFTLB* </pre></td></tr>
+            <b>Limpieza de Balance</b> srvft01 cd /home/ctmagent/ctm/sysout ls -ltr CFTLB* </pre></td></tr>-->
             
             
-            <tr><td><pre><b>Mantenimiento tablas de Kenan</b>
+            <tr><td><b>MANTENIMIENTO DE TABLAS DE KENAN</b><br>
                   
-            <b>Split de tablas de Kenan</b>
+            <pre><b>Split de tablas de Kenan</b>
             (Solo ejecuta después del ciclo 28 del presente mes y antes del ciclo 01 del próximo mes)
             
             
@@ -230,42 +233,35 @@ Espacio en Disco
             (Se planifica y aprueba su ejecución)</pre></td></tr>
             
             <tr>
-            <td><b>Especiales Pendientes</b><br>
-            ======================<br><br></td></tr><br>
+            <td><b>ESPECIALES PENDIENTES</b><br>
+            <br><br></td></tr><br>
             
             <tr>
-            <td><b>Cancelaciones y acción</b><br>
-            =======================<br><br></td></tr><br>
-            
-            
-            <tr>
-            <td><b>Eventos presentados en las plataformas corporativas</b> <br>
-            ====================================================<br><br></td></tr><br>
-            
+            <td><b>CANCELACIONES Y ACCIÓN</b><br>
+            <br><br></td></tr><br>
             
             
             <tr>
-            <td><b>Actividades</b><br>
-            ============<br><br></td></tr>            
+            <td><b>EVENTOS PRESENTADOS EN LAS PLATAFORMAS CORPORATIVAS</b> <br>
+            <br><br></td></tr><br>
+            
+            
+            
+			
             <tr>
-            <td><b>Observaciones</b><br>
-            ==============</td></tr><br>
+            <td><b>ACTIVIDADES</b><br>
+            <br><br></td></tr>            
+            <tr>
+            <td><b>OBSERVACIONES</b><br><br>
+            </td></tr><br>
             
             <tr>
-            <td><b>Guardia ADMINFACT</b><br>
-            ==================<br>
+            <td><b>GUARDIA ADMINFACT</b><br>
+            <br>
             
-            .- Maiker H.<br><br>      
-            
-            Atento a sus ordenes;<br>
-            
-            
-            Maiker J. Henríquez U.<br>
-            Líder Técnico de Administración Plataformas Integradas<br> Coordinación de Administración de Plataformas Integradas GGS -<br>
-            Gerencia Operaciones TI Centralizadas Teléfono Oficina: (212)<br> 5040407 Teléfono Celular: (416) 6126187<br>
-            
-            Sr. Ramón Velazquez<br></td></tr><br><br><br>
+            <br></td></tr><br><br><br>
             </tr>
+
             </tbody>
 
             </table>
@@ -441,6 +437,6 @@ Espacio en Disco
             [srvft31]:/home/ctmagent/ctm/sysout><br></td></tr>
     </table>-->
     <br>
-    <a href="index.html">Inicio&#10132</a>
+    <a href="../index.php">Inicio&#10132</a>
 </body>
 </html>

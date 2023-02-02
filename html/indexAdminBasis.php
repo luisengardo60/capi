@@ -5,10 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ADMINCRM</title>
+    <title>ADMINBASIS</title>
     <!--<link rel="stylesheet" href="../css/bootstrap.min.css">-->
-    <link rel="stylesheet" href="../css/sidebar2.css">
-    <link rel="stylesheet" href="../css/reloj3.css">
+    <link rel="stylesheet" href="../css/sidebar1.css">
     <script src="../js/jquery-3.4.1.js"></script>
     <link rel="stylesheet" href="../css/cdnjscloudflareAjax.css">
 </head>
@@ -21,8 +20,8 @@
     <nav class="sidebar">
         <!--<div class="text"><a href="../html/index.html">C.A.P.I.</a></div>-->
         <ul>
-            <li><a href="../index.html">C.A.P.I.</a></li>
-            <li><a href="#" class="feat-btn">AdminCrm<span class="first">&#x021D3; </span></a>
+            <li><a href="../index.php">Menu Inicial</a></li>
+            <li><a href="#" class="feat-btn">AdminBasis<span class="first">&#x021D3; </span></a>
                 <ul class="feat-show">
                     <li><a href="#">xxxxxxx</a></li>
                     <li><a href="#">xxxxxxx</a></li>
@@ -58,49 +57,18 @@
         </ul>
 
 
-    </nav><br><br><br>
+    </nav>
 
-<section>
-    <nav class="navbar navbar-expand-lg px-5">
-        <div class="container-fluid">
-            <h1 class="sombra3"><img src="../img/bandera_icono_vzla.png">Gerencia Sistemas Gestión Empresarial<br>C.A.P.I. Coordinación Administración Plataformas Integradas<br><br><br><b style="color:aqua">ADMINCRM</b></h1>
 
-    </nav><br><br><br><br>
+    <?php include '../titulo/titulo1.html' ?><br><br><br><br>
 
-    <div class="wrap">
-        <div class="widget">
-            <div class="fecha">
-                <p id="diaSemana" class="diaSemana"></p>
-                <p id="dia" class="dia"></p>
-                <p>:</p>
-                <p id="mes" class="mes"></p>
-                <p></p>
-                <p id="year" class="year"></p>
-            </div>
+    <h1 class="sombra3" style="color:aqua"><b>ADMINBASIS</b></h1><br><br><br><br><br><br><br><br>
 
-            <div class="reloj">
-                <p id="horas" class="horas"></p>
-                <p>:</p>
-                <p id="minutos" class="minutos"></p>
-                <p>:</p>
-                <div class="caja-segundos">
-                    <p id="ampm" class="ampm"></p>
-                    <p id="segundos" class="segundos"></p>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <script src="../js/bootstrap.bundle.min.js"
-        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-        crossorigin="anonymous"></script>
-    <!-- JS Main -->
-    <script src="../js/new.js"></script>
-    <script src="../js/jquery-index.js"></script>
 
-    <script src="../js/jquery-3.4.1.js"></script>
-
-    <script src="../js/reloj.js"></script>
+    <article>
+        <?php include '../reloj/reloj2.html' ?>
+    </article>
 </body>
 
 </html>
