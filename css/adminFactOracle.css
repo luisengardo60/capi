@@ -12,34 +12,32 @@ header {
     /* border-radius: 5px;
     border: 5px solid orange;*/
     background-color: chocolate;
-    font-size: 23px;
+    font-size: 20px;
     position:fixed;
-    width: 1528px;
+    width: 1430px;
     margin: 0px;
    /* padding-left: 0em;*/
     padding-top: 0em;
     padding-bottom: 0em;
 }
 
-.uno {
-    width: 60%;
-}
+
 
 section {
-    width: 90em;
+    width: 100em;
     margin: auto;
 }
 
 article {
-    padding-top: 10em;
-}
+    padding-top: 5em;
+   }
 
 h1 {
     text-align: center;
     color: black;
     text-shadow: 2px -5px 7px #050505;
     font-family: 'Unna', serif;
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: 1px;
     border-left-style: solid;
 }
@@ -55,7 +53,7 @@ table {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     /*border-collapse: collapse;
     /*border: 3px solid black;*/
-    width: 1528px;
+    width: 1410px;
     padding: 1px;
     table-layout: auto;
     border: 7px ridge black;
