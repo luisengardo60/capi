@@ -16,7 +16,7 @@ header {
     background-color: lightskyblue;
     font-size: 20px;
     position: fixed;
-    width: 1578px;
+    width: 1420px;
     margin: 0px;
     /* padding-left: 0em;*/
     padding-top: 0em;
@@ -31,7 +31,7 @@ section {
 }
 
 article {
-    padding-top: 13em;
+    padding-top: 16em;
 }
 
 h1 {
@@ -55,7 +55,7 @@ table {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     /*border-collapse: collapse;
     /*border: 3px solid black;*/
-    width: 1578px;
+    width: 1420px;
     padding: 1px;
     table-layout: auto;
     border: 7px ridge black;

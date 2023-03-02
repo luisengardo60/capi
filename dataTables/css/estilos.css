@@ -19,7 +19,7 @@ body {
 
 .azul {
   background: blue;
-  color: black;
+  color: white;
 }
 
 .azul1 {
@@ -83,3 +83,4 @@ a:hover {
   color: yellow;
   transition: .5s;
   text-decoration: none;
+}

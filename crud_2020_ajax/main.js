@@ -75,7 +75,7 @@ $(document).on("click", ".btnEditar", function(){
     $("#status").val(status);
     $(".modal-header").css("background-color", "#007bff");
     $(".modal-header").css("color", "white" );
-    $(".modal-title").text("Editar Usuario");		
+    $(".modal-title azul").text("Editar Usuario");		
     $('#modalCRUD').modal('show');		   
 });
 
