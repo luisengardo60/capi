@@ -19,7 +19,7 @@
             position: fixed;
             left: 0;
             top: 0;
-            width: 100%;
+            width: 1400px;
         }
 
         .page-container {
@@ -72,8 +72,8 @@
             background: lightgrey;
         }
 
-        .main {
-            padding-top: 18rem;
+        article {
+            padding-top: 12rem;
         }
 
         .sombra1 {

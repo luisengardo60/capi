@@ -16,7 +16,7 @@ header {
     background-color: lightskyblue;
     font-size: 20px;
     position: fixed;
-    width: 1425px;
+    width: 1578px;
     margin: 0px;
     /* padding-left: 0em;*/
     padding-top: 0em;
@@ -31,7 +31,7 @@ section {
 }
 
 article {
-    padding-top: 15em;
+    padding-top: 13em;
 }
 
 h1 {
@@ -55,7 +55,7 @@ table {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     /*border-collapse: collapse;
     /*border: 3px solid black;*/
-    width: 1390px;
+    width: 1578px;
     padding: 1px;
     table-layout: auto;
     border: 7px ridge black;
@@ -68,7 +68,7 @@ th {
     /*border-radius: 40px;*/
     /*text-decoration: underline;*/
     font-size: 20px;
-    text-align: left;
+    text-align: center;
     background-color: blue;
     color: white;
     /*box-sizing: border-box;
@@ -82,7 +82,7 @@ td {
     width: 1390px;
     padding-left: 0px;
     font-size: 16px;
-    text-align: left;
+    text-align: center;
     background-color: #050505;
     color: darkblue;
 }
