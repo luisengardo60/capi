@@ -41,7 +41,7 @@ foreach($resultado as $fila){
   }
 
 $sub_array = array();
-$sub_array[] = $fila["id"];
+//$sub_array[] = $fila["id"];
 $sub_array[] = $fila["nombre"];
 $sub_array[] = $fila["apellido"];
 $sub_array[] = $fila["email"];

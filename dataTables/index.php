@@ -40,7 +40,7 @@
       <table id="datos_usuario" class="table table-bordered table-striped">
         <thead>
           <tr>
-            <th style="background-color: blue; color:white">Id</th>
+           <!-- <th style="background-color: blue; color:white">Id</th>-->
             <th style="background-color: blue; color:white">Nombre</th>
             <th style="background-color: blue; color:white">Apellido</th>
             <th style="background-color: blue; color:white">Email</th>
