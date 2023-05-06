@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ADMINFACT</title>
-    <!--<link rel="stylesheet" href="../css/bootstrap.min.css">-->
-    <link rel="stylesheet" href="../css/sidebar.css">
+    <!--<link rel="stylesheet" href="../css/bootstrap.min.css">-->    
     <script src="../js/jquery-3.4.1.js"></script>
     <link rel="stylesheet" href="../css/cdnjscloudflareAjax.css">
+    <link rel="stylesheet" href="../css/sidebar0.css">
 </head>
 
 <body>
@@ -23,7 +23,7 @@
             <li><a href="../index.php">Menu Inicial</a></li>
             <li><a href="#" class="feat-btn">Adminfact<span class="first">&#x021D3; </span></a>
                 <ul class="feat-show">
-                    <li><a href="../dataTables/index.php">Organigrama</a></li>
+                    <li><a href="../dataTables/organigrama.php">Organigrama</a></li>
                     <li><a href="../html/adminFactMenuServidores.html">Servidores</a></li>
                     <li><a href="../html/adminFactAplicaciones.html">Aplicaciones</a></li>
                     <li><a href="../html/adminFactAreasAtencion.html">Áreas de Atención</a></li>
