@@ -1,8 +1,8 @@
 body { 
-  background-image: url(../img/newcantv4.jpg);
-  background-repeat: no-repeat;
-  background-size:cover;
-  font-family: verdana;
+  background-color: lightskyblue;
+  font-family: "Sofia", sans-serif;
+  margin: 0%;
+  padding: 0%;
 }
 
 a {
