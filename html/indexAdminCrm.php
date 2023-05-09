@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ADMINCRM</title>
     <!--<link rel="stylesheet" href="../css/bootstrap.min.css">-->
-    <link rel="stylesheet" href="../css/sidebar2.css">
+    <link rel="stylesheet" href="../css/sidebar02.css">
     <script src="../js/jquery-3.4.1.js"></script>
     <link rel="stylesheet" href="../css/cdnjscloudflareAjax.css">
 </head>
