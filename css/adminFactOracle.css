@@ -16,7 +16,7 @@ header {
     background-color: lightskyblue;
     font-size: 20px;
     position:fixed;
-    width: 1425px;
+    width: 100em;
     margin: 0px;
    /* padding-left: 0em;*/
     padding-top: 0em;
@@ -35,7 +35,7 @@ article {
    }
 
 h1 {
-    text-align: center;
+    text-align: left;
     color:black;
     text-shadow: 2px -5px 7px #050505;
     font-family: 'Unna', serif;
