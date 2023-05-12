@@ -20,7 +20,7 @@
     <nav class="sidebar">
         <!--<div class="text"><a href="../html/index.html">C.A.P.I.</a></div>-->
         <ul>
-            <li><a href="../index.php">Menu Inicial</a></li>
+            <li><a href="../index.php">Menu Inicial C.A.P.I.</a></li>
             <li><a href="#" class="feat-btn">AdminBasis<span class="first">&#x021D3; </span></a>
                 <ul class="feat-show">
                     <li><a href="#">xxxxxxx</a></li>

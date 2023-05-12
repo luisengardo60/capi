@@ -7,8 +7,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;*/
-  background-color: cyan;
+  background-color: black;
 
+}
+
+.uno {
+  color: white;
 }
 
 .dos {

@@ -20,7 +20,7 @@
     <nav class="sidebar">
         <!--<div class="text"><a href="../html/index.html">C.A.P.I.</a></div>-->
         <ul>
-            <li><a href="../index.php">Menu Inicial</a></li>
+            <li><a href="../index.php">Menu Inicial C.A.P.I.</a></li>
             <li><a href="#" class="feat-btn">Adminfact<span class="first">&#x021D3; </span></a>
                 <ul class="feat-show">
                     <li><a href="../dataTables/organigrama.php">Organigrama</a></li>
@@ -42,8 +42,8 @@
                     <li><a href="../html/adminFactDocMenu.html">Control-M Procesos</a></li>
                 </ul>
             </li>
-            <li><a href="../html/adminFactReplicateDaP.html">Proc. Replicate Tablas Des. a Prod. I</a></li>
-            <li><a href="../html/adminFactReplicaDaP.html">Proc. Replicate Tablas Des. a Prod. II</a></li>
+            <!--<li><a href="../html/adminFactReplicateDaP.html">Proc. Replicate Tablas Des. a Prod. I</a></li>-->
+            <li><a href="../html/adminFactReplicaDaP.html">Replicate Tablas<br>Des. a Prod</a></li>
             <li><a href="../html/Menu_Main1.html">Mainframe</a></li>
             <!--<li><a href="https://ss64.com/" target="_blank" class="bg-linux">
                     <img style="width: 50px; border-radius: 50%;" src="../img/linux.png" alt="Linux" /><span

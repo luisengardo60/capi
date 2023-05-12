@@ -65,7 +65,7 @@
 
         <h1 class="sombra3" style="color:aqua"><b>ADMINEDI</b></h1><br><br><br><br><br><br><br><br>
     <article>
-        <?php include '../reloj/reloj4.html' ?>
+        <?php include '../reloj/reloj1.html' ?>
 </article>
 </body>
 
