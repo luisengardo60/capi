@@ -10,7 +10,7 @@
 
 body {
   min-width: 100vmin;
-  background: url(../img/castillo_margarita.jpg) no-repeat center center fixed;
+  background: url(../img/castillo_margarita1.jpg) no-repeat center center fixed;
   background-size: cover;
   }
 
@@ -253,7 +253,7 @@ nav ul li a span.rotate{
 
 h1 {
   font-family: 'Unna';
-  color:white;
+  color:black;
   }
 
 .sombra1 {
@@ -274,7 +274,7 @@ h1 {
 }
 
 .sombra3 {
-  color: white;
+  color: black;
   text-shadow: -5px -4px 5px #050505;
   font-size: 30px;
   font-family: 'serif';

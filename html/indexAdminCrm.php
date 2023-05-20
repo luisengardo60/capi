@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ADMINCRM</title>
     <!--<link rel="stylesheet" href="../css/bootstrap.min.css">-->
-    <link rel="stylesheet" href="../css/sidebar02.css">
     <script src="../js/jquery-3.4.1.js"></script>
     <link rel="stylesheet" href="../css/cdnjscloudflareAjax.css">
+    <link rel="stylesheet" href="../css/sidebar02.css">
 </head>
 
 <body>
@@ -20,8 +20,9 @@
     <nav class="sidebar">
         <!--<div class="text"><a href="../html/index.html">C.A.P.I.</a></div>-->
         <ul>
-            <li><a href="../index.php">Menu Inicial</a></li>
-            <li><a href="#" class="feat-btn">AdminCrm<span class="first">&#x021D3; </span></a>
+        <li><a href="../index.php"><img src="../img/menu_inicio6.jpg" alt="C.A.P.I"
+    style="padding-left:5x;padding-right:1px;padding-top: 1px; border-radius: 50px; float:center; width: 80px; height: 80px; background-color:green"></a></li>
+                <li><a href="#" class="feat-btn">AdminCrm<span class="first">&#x021D3; </span></a>
                 <ul class="feat-show">
                     <li><a href="../html/adminCrmServidores.html">Servidores Certus</a></li>
                     <li><a href="#">xxxxxxx</a></li>
