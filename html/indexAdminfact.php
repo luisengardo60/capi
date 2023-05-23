@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ADMINFACT</title>
-    <!--<link rel="stylesheet" href="../css/bootstrap.min.css">-->    
+    <!--<link rel="stylesheet" href="../css/bootstrap.min.css">-->
     <script src="../js/jquery-3.4.1.js"></script>
     <link rel="stylesheet" href="../css/cdnjscloudflareAjax.css">
     <link rel="stylesheet" href="../css/sidebar0.css">
@@ -20,14 +20,12 @@
     <nav class="sidebar">
         <!--<div class="text"><a href="../html/index.html">C.A.P.I.</a></div>-->
         <ul>
-        <li><a href="../index.php"><img src="../img/menu_inicio6.jpg" alt="C.A.P.I"
-    style="padding-left:5x;padding-right:1px;padding-top: 1px; border-radius: 50px; float:center; width: 80px; height: 80px; background-color:green"></a></li>
+            <li><a href="../index.php"><img src="../img/menu_inicio6.jpg" alt="C.A.P.I" style="padding-left:5x;padding-right:1px;padding-top: 1px; border-radius: 50px; float:center; width: 80px; height: 80px; background-color:green"></a></li>
             <li><a href="#" class="feat-btn">Adminfact<span class="first">&#x021D3; </span></a>
                 <ul class="feat-show">
                     <li><a href="../dataTables/organigrama.php">Organigrama</a></li>
                     <li><a href="../html/adminFactMenuServidores.html">Servidores</a></li>
                     <li><a href="../html/adminFactAplicaciones.html">Aplicaciones</a></li>
-                    <li><a href="../html/adminFactAreasAtencion.html">Áreas de Atención</a></li>
                     <li><a href="../html/adminFactIntegKenan.html">Kenan</a></li>
                     <li><a href="../html/adminFactIntegracionEdi.html">Edi</a></li>
                     <li><a href="../html/adminFactEsquema.html">Integración</a></li>
@@ -36,15 +34,16 @@
             <li><a href="#" class="serv-btn">Facturación<span class="second">&#x021D3;</span></a>
                 <ul class="serv-show">
                     <li><a href="../html/adminFactciclos.html">Ciclos de Factura</a></li>
-                    <li><a href="../html/adminFactConsultar.html">Consultar Servicios</a></li>
-                    <li><a href="../html/adminFactServicio.html">Refrescar Servicios</a></li>
+                    <li><a href="../html/adminFactConsultar.html">Consultar Servicio</a></li>
+                    <li><a href="../html/adminFactServicio.html">Refrescar Servicio</a></li>
+                    <li><a href="../html/adminFactAreasAtencion.html">Áreas de Atención</a></li>
                     <li><a href="../html/adminFactIncidencias.html">Incidencias</a></li>
                     <li><a href="../html/adminFactStatus.html">Status</a></li>
-                    <li><a href="../html/adminFactDocMenu.html">Control-M Procesos</a></li>
+                    <li><a href="../html/adminFactDocMenu.html">Control-M Job's</a></li>
                 </ul>
             </li>
             <!--<li><a href="../html/adminFactReplicateDaP.html">Proc. Replicate Tablas Des. a Prod. I</a></li>-->
-            <li><a href="../html/adminFactReplicaDaP.html">Replicate Tablas<br>Des. a Prod</a></li>
+            <li><a href="../html/adminFactReplicaDaP.html">Replicate Tablas</a></li>
             <li><a href="../html/Menu_Main1.html">Mainframe</a></li>
             <!--<li><a href="https://ss64.com/" target="_blank" class="bg-linux">
                     <img style="width: 50px; border-radius: 50%;" src="../img/linux.png" alt="Linux" /><span
