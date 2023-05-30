@@ -76,8 +76,13 @@ body {
 .reloj .ampm {
   font-size: 1.1rem;
   display: block;
-  color:white;/*
+  color: darkcyan;/*
   background: white;
   border-radius: 2px;*/
+}
+
+.reloj .puntos {
+  color: black;
+  font-size: 40px;
 }
 
