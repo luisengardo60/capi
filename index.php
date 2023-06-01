@@ -18,11 +18,8 @@
     <?php include 'titulo/titulo.html' ?>
 
   </nav><br><br><br><br>
-  <a href="html/indexAdminfact.php"><button class="boton"><b>ADMINFACT</b></button></a>
-  <a href="html/indexAdminBasis.php"><button class="boton"><b>ADMINBASIS</b></button></a>
-  <a href="html/indexAdminCrm.php"><button class="boton"><b>ADMINCRM</b></button></a>
-  <a href="html/indexAdminEdi.php"><button class="boton"><b>ADMINEDI</b></button></a>
-  <a href="login/index.html"><button class="boton"><b>SALIR</b></button></a>
+
+  <a href="login.html"><button class="boton"><b>Entrar</b></button></a>
 
 
 

@@ -8,6 +8,10 @@
     font-family: 'Popins', sans-serif;
 }
 
+.ini, .ini1 {
+     display: inline-block;
+}
+
 body {
     min-width: 100vmin;
     background: url(../img/venezuela9.jpg) no-repeat center center fixed;
@@ -27,8 +31,8 @@ button {
     font-size: 16px;
     box-sizing: content-box;
     border-radius: 50%;
-    width: 130px;
-    height: 130px;
+    width: 100px;
+    height: 100px;
     border: 7px outset cyan;
 }
 
@@ -42,8 +46,8 @@ button {
     font-size: 16px;
     margin: 2em;
     border-radius: 50%;
-    width: 130px;
-    height: 130px;
+    width: 100px;
+    height: 100px;
     border: 0px inset lightgrey;
     transform: rotate(-12deg);
     font-family: "Sofia", sans-serif;
