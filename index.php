@@ -22,6 +22,7 @@
   <a href="html/indexAdminBasis.php"><button class="boton"><b>ADMINBASIS</b></button></a>
   <a href="html/indexAdminCrm.php"><button class="boton"><b>ADMINCRM</b></button></a>
   <a href="html/indexAdminEdi.php"><button class="boton"><b>ADMINEDI</b></button></a>
+  <a href="login/index.html"><button class="boton"><b>SALIR</b></button></a>
 
 
 
