@@ -15,7 +15,7 @@
 <body>
 
     <nav>
-        <?php include 'titulo/titulo.html' ?>
+        <?php include '../capi/titulo/titulo.html' ?>
 
     </nav><br><br><br><br>
     <div class="ini">
@@ -28,7 +28,7 @@
     <div class="ini3"></div>
     <a href="html/indexAdminEdi.php"><button class="boton"><b>ADMINEDI</b></button></a>
     <div class="ini4"></div>
-    <a href="login/index.html"><button class="boton"><b>SALIR</b></button></a>
+    <a href="login.html"><button class="boton"><b>SALIR</b></button></a>
     </div>
 
 
