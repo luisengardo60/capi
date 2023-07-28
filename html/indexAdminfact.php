@@ -25,10 +25,10 @@
                 <ul class="feat-show">
                     <li><a href="../dataTables/organigrama.php">Organigrama</a></li>
                     <li><a href="../html/adminFactMenuServidores.html">Servidores</a></li>
-                    <li><a href="../html/adminFactAplicaciones.html">Aplicaciones</a></li>
-                    <li><a href="../html/adminFactIntegKenan.html">Kenan</a></li>
-                    <li><a href="../html/adminFactIntegracionEdi.html">Edi</a></li>
-                    <li><a href="../html/adminFactEsquema.html">Integración</a></li>
+                    <!--<li><a href="../html/adminFactAplicaciones.html">Aplicaciones</a></li>-->
+                    <li><a href="../html/adminFactGraficos.html">Gráficos</a></li>
+                    <!--<li><a href="../html/adminFactIntegracionEdi.html">Edi</a></li>
+                    <li><a href="../html/adminFactEsquema.html">Integración</a></li>-->
                 </ul>
             </li>
             <li><a href="#" class="serv-btn">Facturación<span class="second">&#x021D3;</span></a>
