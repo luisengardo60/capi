@@ -55,7 +55,7 @@ button {
 }
 
   img.redimension {
-    width: 200px;
+    width: 100px;
     height: 40px;
   }
 
@@ -130,10 +130,10 @@ nav ul{
 nav ul li{
   line-height: 60px;
   color: white;
-  padding-left: 2px;
+  padding-left: 1px;
   box-sizing: border-box;
   border-bottom: 5px solid black;
-  border-top: 4px solid rgba(255,255,255,.1);
+  border-top: 5px solid rgba(255,255,255,.1);
   transition: .4s;
   text-decoration: none;
 }
@@ -141,10 +141,10 @@ nav ul li{
 nav ul li:last-child{
   line-height: 60px;
   color: white;
-  padding-left: 10px;
+  padding-left: 1px;
   box-sizing: border-box;
   border-bottom: 5px solid black;
-  border-top: 4px solid rgba(255,255,255,.1);
+  border-top: 5px solid rgba(255,255,255,.1);
   transition: .4s;
   text-decoration: none;
 }

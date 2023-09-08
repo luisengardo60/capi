@@ -16,14 +16,14 @@
   <link rel="stylesheet" href="css/estilos.css">
 
   <title>Organigrama C.A.P.I.(Coordinación Administración Plataformas Integradas)</title>
-</head>
+ </head>
 
 <body>
 
   <div class="container fondo">
 
     <h1 class="text-center sombra3"><img src="../img/bandera_icono_vzla.png"> Coordinación Administración Plataformas Integradas<img src="../img/bandera_icono_vzla.png"></h1>
-
+    <a href="../html/indexAdminfact.php">Menu Adminfact</a>
     <div class="row">
       <div class="col-2 offset-10">
         <div class="text-center">
@@ -40,7 +40,7 @@
       <table id="datos_usuario" class="table table-bordered table-striped">
         <thead>
           <tr>
-           <!-- <th style="background-color: blue; color:white">Id</th>-->
+            <!-- <th style="background-color: blue; color:white">Id</th>-->
             <th style="background-color: blue; color:white">Nombre</th>
             <th style="background-color: blue; color:white">Apellido</th>
             <th style="background-color: blue; color:white">Email</th>
@@ -86,7 +86,8 @@
       </table>
     </div>
     <div class="table-responsive">
-      <b>Menu Adminfact</b><a href="../html/indexAdminfact.php">&#10132;</a>
+      <!-- <b>Menu Adminfact</b><a href="../html/indexAdminfact.php">&#10132;</a>-->
+      <a href="../html/indexAdminfact.php">Menu Adminfact</a>
     </div>
 
     <!-- Modal -->
@@ -196,8 +197,7 @@
         var extension = $("#imagen_usuario").val().split('.').pop().toLowerCase();
 
         if (extension != '') {
-          if (jQuery.inArray(extension, ['gif', 'png', 'jpg', 'jpeg']) == -1) 
-          {
+          if (jQuery.inArray(extension, ['gif', 'png', 'jpg', 'jpeg']) == -1) {
             alert("Formato de imagen inválido");
             ("#imagen_usuario").val('');
             return false;
@@ -211,8 +211,7 @@
             data: new FormData(this),
             contentType: false,
             processData: false,
-            success: function(data) 
-            {
+            success: function(data) {
               alert(data);
               $('#formulario')[0].reset();
               $('#modalUsuario').modal('hide');
@@ -233,9 +232,8 @@
           data: {
             id_usuario: id_usuario
           },
-          dataType:"json",
-          success: function(data)
-          {
+          dataType: "json",
+          success: function(data) {
             //Console.log(data):
             $('#modalUsuario').modal('show');
             $('#nombre').val(data.nombre);

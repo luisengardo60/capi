@@ -26,7 +26,7 @@
                     <li><a href="../dataTables/organigrama.php">Organigrama</a></li>
                     <li><a href="../html/adminFactMenuServidores.html">Servidores</a></li>
                     <!--<li><a href="../html/adminFactAplicaciones.html">Aplicaciones</a></li>-->
-                    <li><a href="../html/adminFactGraficos.html">Gráficos</a></li>
+                    <li><a href="../html/adminFactGraficos.html">Diapositivas</a></li>
                     <!--<li><a href="../html/adminFactIntegracionEdi.html">Edi</a></li>
                     <li><a href="../html/adminFactEsquema.html">Integración</a></li>-->
                 </ul>

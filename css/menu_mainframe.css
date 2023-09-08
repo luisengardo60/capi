@@ -3,9 +3,9 @@
        background-repeat: repeat;
        background-position: top;
        background-attachment: scroll;
-       background-color: lightblue;
+       /*background-color: lightblue;
        font-family: verdana;
-       color: black;
+       color: black;*/
    }
 
    h1 {
@@ -68,11 +68,11 @@
        text-align: left;
        width: 16%;
        padding: 2px 2px 4px;
-       border: 8px groove black;
-       border-width: 6px 10px 14px;
+       border: 8px inset black;
+       border-width: 4px 4px 6px;
        color: black;
        background-color: transparent;
-       font-size: 15px;
+       font-size: 18px;
        float: left;
    }
 
@@ -93,11 +93,11 @@
        text-align: left;
        width: 16%;
        padding: 2px 2px 4px;
-       border: 8px groove black;
-       border-width: 6px 10px 14px;
+       border: 8px inset black;
+       border-width: 4px 4px 6px;
        background-color: transparent;
        color: black;
-       font-size: 15px;
+       font-size: 18px;
        float: left;
    }
 
@@ -118,10 +118,10 @@
        text-align: left;
        width: 16%;
        padding: 2px 2px 4px;
-       border: 8px groove black;
-       border-width: 6px 10px 14px;
+       border: 8px inset black;
+       border-width: 4px 4px 6px;
        background-color: transparent;
-       font-size: 15px;
+       font-size: 18px;
        float: left;
    }
 
