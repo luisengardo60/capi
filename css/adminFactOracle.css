@@ -88,7 +88,7 @@ td {
 }
 
 a {
-    color: grey;
+    color: white;
     display: inline-block;
     background-color: black;
     box-sizing: content-box;
@@ -100,7 +100,7 @@ a {
 }
 
 a:hover {
-    color: #fff;
+    color: yellow;
     transition: .5s;
 }
 

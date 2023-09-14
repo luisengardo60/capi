@@ -1,0 +1,142 @@
+srvft01 22: netstat -in
+Name      Mtu  Network         Address         Ipkts   Ierrs Opkts   Oerrs Coll
+lan11     1500 10.0.12.0       10.0.12.16      930490  0     930493  0     0
+lan2      1500 161.196.11.128  161.196.11.138  237726232 0     917059260 0     0                                                                                                 
+lan1      1500 10.0.0.0        10.0.0.121      2974519149 0     1707855476 0                                                                                                      0
+lo0       4136 127.0.0.0       127.0.0.1       13861312 0     13861315 0     0                                                                                                   
+lan2:1    1500 161.196.11.128  161.196.11.199  437688588 0     400662287 0     0                                                                                                 
+srvft01 23:
+
+
+D:\Users\lgarci19>ping -a 161.196.11.138
+
+Haciendo ping a srvft01.cantv.com.ve [161.196.11.138] con 32 bytes de datos:
+Respuesta desde 161.196.11.138: bytes=32 tiempo=9ms TTL=250
+Respuesta desde 161.196.11.138: bytes=32 tiempo=1ms TTL=250
+
+Estadísticas de ping para 161.196.11.138:
+    Paquetes: enviados = 2, recibidos = 2, perdidos = 0
+    (0% perdidos),
+Tiempos aproximados de ida y vuelta en milisegundos:
+    Mínimo = 1ms, Máximo = 9ms, Media = 5ms
+___________________________________________________________________________________________________
+
+
+
+D:\Users\lgarci19>ping -a 161.196.11.199
+
+Haciendo ping a kbpappcl.cantv.com.ve [161.196.11.199] con 32 bytes de datos:
+Respuesta desde 161.196.11.199: bytes=32 tiempo=2ms TTL=250
+Respuesta desde 161.196.11.199: bytes=32 tiempo=1ms TTL=250
+
+Estadísticas de ping para 161.196.11.199:
+    Paquetes: enviados = 2, recibidos = 2, perdidos = 0
+    (0% perdidos),
+Tiempos aproximados de ida y vuelta en milisegundos:
+    Mínimo = 1ms, Máximo = 2ms, Media = 1ms
+=========================================================================================================
+
+
+[srvft20]:/appl/appadm> netstat -in
+Name      Mtu  Network         Address         Ipkts   Ierrs Opkts   Oerrs Coll
+lan2      1500 161.196.11.128  161.196.11.181  478742430 0     1303894814 0     0
+lan1      1500 10.0.0.0        10.0.0.126      7597625 0     14144550 0     0
+lo0       4136 127.0.0.0       127.0.0.1       4167281 0     4167330 0     0
+lan2:1    1500 161.196.11.128  161.196.11.204  524148833 0     236507459 0     0
+[srvft20]:/appl/appadm>
+
+
+D:\Users\lgarci19>ping -a 161.196.11.181
+
+Haciendo ping a srvft20.cantv.com.ve [161.196.11.181] con 32 bytes de datos:
+Respuesta desde 161.196.11.181: bytes=32 tiempo=1ms TTL=250
+Respuesta desde 161.196.11.181: bytes=32 tiempo=1ms TTL=250
+Respuesta desde 161.196.11.181: bytes=32 tiempo=1ms TTL=250
+
+Estadísticas de ping para 161.196.11.181:
+    Paquetes: enviados = 3, recibidos = 3, perdidos = 0
+    (0% perdidos),
+Tiempos aproximados de ida y vuelta en milisegundos:
+    Mínimo = 1ms, Máximo = 1ms, Media = 1ms
+______________________________________________________________________________________________________________
+
+D:\Users\lgarci19>ping -a 161.196.11.204
+
+Haciendo ping a cdmprdcl.cantv.com.ve [161.196.11.204] con 32 bytes de datos:
+Respuesta desde 161.196.11.204: bytes=32 tiempo=3ms TTL=250
+Respuesta desde 161.196.11.204: bytes=32 tiempo=1ms TTL=250
+
+Estadísticas de ping para 161.196.11.204:
+    Paquetes: enviados = 2, recibidos = 2, perdidos = 0
+    (0% perdidos),
+Tiempos aproximados de ida y vuelta en milisegundos:
+    Mínimo = 1ms, Máximo = 3ms, Media = 2ms
+=================================================================================================================
+
+
+[srvft30]:/appl/ddfp01# netstat -in
+Name      Mtu  Network         Address         Ipkts   Ierrs Opkts   Oerrs Coll
+lan3      1500 10.1.95.0       10.1.95.39      2486599492 0     2364429021 0     0
+lan2      1500 161.196.11.128  161.196.11.194  882700396 0     632932025 0     0
+lan1      1500 10.0.0.0        10.0.0.128      70447072 0     160474161 0     0 
+lo0       4136 127.0.0.0       127.0.0.1       380850931 0     380851002 0     0
+lan2:1    1500 161.196.11.128  161.196.11.217  29017502 0     0       0     0
+[srvft30]:/appl/ddfp01#
+
+
+D:\Users\lgarci19>ping -a 161.196.11.194
+
+Haciendo ping a srvft30.cantv.com.ve [161.196.11.194] con 32 bytes de datos:
+Respuesta desde 161.196.11.194: bytes=32 tiempo=1ms TTL=250
+Respuesta desde 161.196.11.194: bytes=32 tiempo=1ms TTL=250
+Respuesta desde 161.196.11.194: bytes=32 tiempo=2ms TTL=250
+
+Estadísticas de ping para 161.196.11.194:
+    Paquetes: enviados = 3, recibidos = 3, perdidos = 0
+    (0% perdidos),
+Tiempos aproximados de ida y vuelta en milisegundos:
+    Mínimo = 1ms, Máximo = 2ms, Media = 1ms
+__________________________________________________________________________________________________________________
+
+D:\Users\lgarci19>ping -a 161.196.11.217
+
+Haciendo ping a 161.196.11.217 con 32 bytes de datos:
+Respuesta desde 161.196.11.217: bytes=32 tiempo=1ms TTL=250
+Respuesta desde 161.196.11.217: bytes=32 tiempo=1ms TTL=250
+
+Estadísticas de ping para 161.196.11.217:
+    Paquetes: enviados = 2, recibidos = 2, perdidos = 0
+    (0% perdidos),
+Tiempos aproximados de ida y vuelta en milisegundos:
+    Mínimo = 1ms, Máximo = 1ms, Media = 1ms
+=====================================================================================================================
+
+
+[srvft31]:/appl/ddfp01> netstat -in
+Name      Mtu  Network         Address         Ipkts   Ierrs Opkts   Oerrs Coll
+lan3      1500 161.196.11.128  161.196.11.195  2629757620 0     4288868205 0                                                                                                      0
+lan1      1500 10.0.0.0        10.0.0.129      15753255 0     29648432 0     0                                                                                                   
+lo0       4136 127.0.0.0       127.0.0.1       117838837 0     117839009 0     0                                                                                                 
+lan3:1    1500 161.196.11.128  161.196.11.206  207192142 0     123365187 0     0                                                                                                 
+lan4      1500 10.1.95.0       10.1.95.40      1017499476 0     1129937001 0                                                                                                      0
+[srvft31]:/appl/ddfp01>
+
+D:\Users\lgarci19>ping -a 161.196.11.195
+
+Haciendo ping a srvft31.cantv.com.ve [161.196.11.195] con 32 bytes de datos:
+Respuesta desde 161.196.11.195: bytes=32 tiempo=1ms TTL=250
+Respuesta desde 161.196.11.195: bytes=32 tiempo=1ms TTL=250
+Respuesta desde 161.196.11.195: bytes=32 tiempo=1ms TTL=250
+
+Estadísticas de ping para 161.196.11.195:
+    Paquetes: enviados = 3, recibidos = 3, perdidos = 0
+    (0% perdidos),
+Tiempos aproximados de ida y vuelta en milisegundos:
+    Mínimo = 1ms, Máximo = 1ms, Media = 1ms
+
+
+
+
+
+
+

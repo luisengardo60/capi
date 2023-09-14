@@ -1,0 +1,98 @@
+1. Tuxedo/Middleware: Consultar procesos activos
+================================================
+
+srvft01 65: pwd
+/appl/kbpp01/utils/Menu
+srvft01 66: menuini.sh
+
+
+            Coord. Operaciones de Plataforma
+            Gcia. Ingenieria de Soluciones
+            GGTecnologia Operaciones Telecom. Fijas
+            Adminfact
+            CANTV
+
+
+
+
+                          Menu Administracion KenanFX V11.7
+                          =================================
+
+
+                          1 .- Security Server
+
+                          2 .- DataBlitz(Se Necesita Xterm)
+
+                          3 .- Tuxedo
+
+                          4 .- Recrear Politicas Seguridad KenanFx
+
+                          5 .- Verificar procesos Middleware
+
+                          0 .- para Terminar ....
+
+
+                 Elija el Nro. de su opcion seguido de Return : 5
+
+
+Chequeando Total de procesos Activos (Middleware) ....
+
+
+Total de procesos activos (Middleware) :  112    TODO OK!
+
+Finalizo Proceso, pulse Return ....
+
+
+2.- Bajar y subir Tuxedo (Middleware)
+
+
+
+
+                          Menu Administracion KenanFX V11.7
+                          =================================
+
+
+                          1 .- Security Server
+
+                          2 .- DataBlitz(Se Necesita Xterm)
+
+                          3 .- Tuxedo
+
+                          4 .- Recrear Politicas Seguridad KenanFx
+
+                          5 .- Verificar procesos Middleware
+
+                          0 .- para Terminar ....
+
+
+                 Elija el Nro. de su opcion seguido de Return : 3
+
+
+
+
+          Configuracion Tecnica
+          GG de Proyectos Mayores
+          Proyecto de Atencion Total
+          Integracion Tecnica
+          CANTV
+
+                                Sub-Menu Tuxedo (Middleware)
+                                ============================
+
+                              1 .- Down Middleware (TMSHUTDOWN)
+
+                              2 .- Up Middleware (TMBOOT) & J2EE
+
+                              3 .- Clean-Up procesos Masivos Middleware
+
+                              4 .- Clean-Up procesos (IPC)
+
+                              5 .- Modificar Configuration File (Tuxedo)
+
+                              6 .- Recrear Transactions File (Tuxedo)
+
+                              0 .- Regresar al Menu Principal .....
+
+                 Elija el Nro. de su opcion seguido de Return :
+
+

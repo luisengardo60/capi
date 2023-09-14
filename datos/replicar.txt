@@ -1,0 +1,29 @@
+Buen dia, saludos:
+
+          La réplica solicitada fue ejecutada
+
+           Para replicar una tabla desde el ambiente KD02 a KP01ADM y las tres bases de datos KP01CUS1, KP01CUS2 y KP01CUS3 ahora se puede utilizar el comando siguiente desde Toad o sqlplus, conectado a la base de datos KP01ADM:
+
+           exec REPLICAR_TABLA ('<nombre_tabla>')
+
+           Por ejemplo:
+
+           exec REPLICAR_TABLA ('DESCRIPTIONS')
+
+            El procedimiento REPLICAR_TABLA primero replica la tabla indicada como parámetro desde la base datos KD02ADM en la base de datos KP01ADM y luego ejecuta de manera remota el procedimiento SINCRONIZAR_TABLA en las bases de datos KP01CUS1, KMP01CUS2 y KP01CUS3, que ejecuta los mismos pasos para copiar desde KP01ADM la data de la tabla
+
+            Todavía hay que agregar el manejo de excepciones (los errores que se puedan presentar en cada paso de los procedimientos), así que antes cualquier problema por favor me avisan
+
+José Enrique González
+
+
+Ejemplo
+conectarse al srvft01 usuario kbpp01
+
+srvft01 25: sqlplus arbor/kenan_hpux_2008@kp01adm
+
+SQL> exec REPLICAR_TABLA ('DESCRIPTIONS')
+
+
+
+

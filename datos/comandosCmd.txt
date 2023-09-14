@@ -1,0 +1,31 @@
+Sintaxis comandos cmd ms-dos:
+edit: comando para abrir el editor online, sirve para crear un archivo
+      tipo .txt
+
+type: permite visualizar el contenido en pantalla de un archivo tipo .txt
+
+dir: lista el contenido de un directorio
+     dir *.txt lista todos los archivos .txt
+     dir/w lista doble linea en pantalla un directorio
+
+cd, cd.., CD\ : Para moverse entre los directorios del sistema
+                cd nombre de la carpeta 
+
+cls : limpia la panatalla
+
+md : crear un directorio o arbol de directorios
+     md pablo pedro , con un solo comando creara los directorios
+     pablo y pedro, pero si se usa>
+     md "pablo pedro" creara el directorio pablo pedro
+
+copy con : crea un archivo tipo .txt
+           copy con prueba.txt  luego se procede escribir los datos,
+           tipear Ctrl + z luego presionar enter
+           Si se quiere crear en otro directorio>
+           copy con D:\Users\Celio prueba.txt
+
+rename : renombre un directorio o un archivo
+
+erase : borra un  archivo o mas 
+
+

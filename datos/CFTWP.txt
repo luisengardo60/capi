@@ -1,0 +1,47 @@
+Consultar wrapper desde el srvft01
+ srvft01 35: pwd
+/home/ctmagent/ctm/sysout
+srvft01 36: ls -ltr | grep CFTWP
+
+
+-rw-r-----   1 root       root          1422 May 27  2019 CFTWPUC003_sh.LOG_031jlk_00001.out
+-rw-r-----   1 root       root            65 May 27  2019 CFTWPUC003_sh.LOG_031jlk_00001.err
+-rw-r-----   1 root       root          1422 Aug 28  2020 CFTWPUD001_sh.LOG_037ja9_00001.out
+-rw-r-----   1 root       root            65 Aug 28  2020 CFTWPUD001_sh.LOG_037ja9_00001.err
+-rw-------   1 ctmft      ctmagent   6899770 Sep 11 06:00 CFTWPUD001_sh.LOG_03jemk_00001
+-rw-------   1 ctmft      ctmagent     45385 Sep 11 06:01 CFTWPUD002_sh.LOG_03jemj_00001
+-rw-------   1 ctmft      ctmagent       724 Sep 11 06:01 CFTWPUD003_sh.LOG_03jemh_00001
+-rw-------   1 ctmft      ctmagent     45417 Sep 11 06:16 CFTWPUD004_sh.LOG_03jemi_00001
+-rw-------   1 ctmft      ctmagent     45380 Sep 11 06:17 CFTWPUD005_sh.LOG_03jemo_00001
+-rw-------   1 ctmft      ctmagent     68311 Sep 11 22:59 CFTWPUE002_sh.LOG_03jeuk_00001
+-rw-------   1 ctmft      ctmagent   5243482 Sep 12 07:38 CFTWPUD001_sh.LOG_03jeul_00001
+-rw-------   1 ctmft      ctmagent     45373 Sep 12 07:41 CFTWPUD002_sh.LOG_03jeuf_00001
+-rw-------   1 ctmft      ctmagent       724 Sep 12 07:41 CFTWPUD003_sh.LOG_03jeud_00001
+-rw-------   1 ctmft      ctmagent     45417 Sep 12 07:56 CFTWPUD004_sh.LOG_03jeue_00001
+-rw-------   1 ctmft      ctmagent     45389 Sep 12 07:58 CFTWPUD005_sh.LOG_03jeuj_00001
+-rw-------   1 ctmft      ctmagent     71963 Sep 12 16:05 CFTWPUC003_sh.LOG_03jffb_00001
+-rw-------   1 ctmft      ctmagent     97117 Sep 12 16:14 CFTWPUC001_sh.LOG_03jffa_00001
+-rw-------   1 ctmft      ctmagent     47867 Sep 12 16:19 CFTWPUE004_sh.LOG_03jfyx_00001
+-rw-------   1 ctmft      ctmagent    282830 Sep 13 04:49 CFTWPUE002_sh.LOG_03jfgw_00001
+-rw-------   1 ctmft      ctmagent   3660547 Sep 13 15:54 CFTWPUD001_sh.LOG_03jfgx_00001
+-rw-------   1 ctmft      ctmagent     45387 Sep 13 15:59 CFTWPUD002_sh.LOG_03jfgr_00001
+-rw-------   1 ctmft      ctmagent       724 Sep 13 15:59 CFTWPUD003_sh.LOG_03jfgp_00001
+-rw-------   1 ctmft      ctmagent     45423 Sep 13 16:39 CFTWPUD004_sh.LOG_03jfgq_00001
+-rw-------   1 ctmft      ctmagent     45378 Sep 13 16:40 CFTWPUD005_sh.LOG_03jfgv_00001
+-rw-------   1 ctmft      ctmagent    197346 Sep 13 23:51 CFTWPUE002_sh.LOG_03jggh_00001
+-rw-------   1 ctmft      ctmagent    370081 Sep 14 05:49 CFTWPUD001_sh.LOG_03jggi_00001
+-rw-------   1 ctmft      ctmagent     45380 Sep 14 05:51 CFTWPUD002_sh.LOG_03jggc_00001
+-rw-------   1 ctmft      ctmagent       724 Sep 14 05:51 CFTWPUD003_sh.LOG_03jgga_00001
+-rw-------   1 ctmft      ctmagent     45416 Sep 14 05:57 CFTWPUD004_sh.LOG_03jggb_00001
+-rw-------   1 ctmft      ctmagent     45380 Sep 14 05:58 CFTWPUD005_sh.LOG_03jggg_00001
+srvft01 37:
+
+en el servidor 31:
+/appl/ddfp01
+[srvft30]:/appl/ddfp01# cd $logctm
+[srvft30]:/home/ctmagent/ctm/sysout#
+[srvft30]:/home/ctmagent/ctm/sysout# ps -ef | grep CFTWP
+
+
+
+

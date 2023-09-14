@@ -1,0 +1,7 @@
+conectarse al srvft01 usuario kbpp01
+
+srvft01 25: sqlplus arbor/kenan_hpux_2008@kp01adm - cat - cus1 - cus2 - cus3
+
+SQL> ALTER USER xxxxxxxx ACCOUNT UNLOCK;
+
+SQL> alter user xxxxxxxx identified by cantv_2023;
