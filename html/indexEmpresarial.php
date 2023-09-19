@@ -23,7 +23,7 @@
             <li><a href="../inicio.php"><img src="../img/menu_inicio6.jpg" alt="C.A.P.I" style="padding-left:5x;padding-right:1px;padding-top: 1px; border-radius: 50px; float:center; width: 80px; height: 80px; background-color:green"></a></li>
             <li><a href="#" class="feat-btn">Empresarial<br> Juan Di Martino<br><br><span class="first">&#x021D3; </span></a>
                 <ul class="feat-show">
-                    <li><a href="../dataTables/organigrama.php">JSSI<br>Video Conferencia</a></li>
+                    <li><a href="#">JSSI<br>Video Conferencia</a></li>
                     <!--<li><a href="../html/adminFactMenuServidores.html">RED DIGITAL</a></li>-->
                     <!--<li><a href="../html/adminFactAplicaciones.html">Aplicaciones</a></li>-->
                     <!--<li><a href="../html/adminFactGraficos.html">SALIDAS DE FACTURAS</a></li>-->

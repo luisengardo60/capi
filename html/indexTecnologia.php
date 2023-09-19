@@ -23,12 +23,11 @@
             <li><a href="../inicio.php"><img src="../img/menu_inicio6.jpg" alt="C.A.P.I" style="padding-left:5x;padding-right:1px;padding-top: 1px; border-radius: 50px; float:center; width: 80px; height: 80px; background-color:green"></a></li>
             <li><a href="#" class="feat-btn">Tecnología<br>Luis Alvarez<br><br><span class="first">&#x021D3; </span></a>
                 <ul class="feat-show">
-                    <li><a href="../dataTables/organigrama.php">CRM</a></li>
-                    <li><a href="../html/adminFactMenuServidores.html">PORTAL DE TALENTOS</a></li>
-                    <li><a href="../html/adminFactAplicaciones.html">PORTAL HCM</a></li>
-                    <li><a href="../html/adminFactGraficos.html">PORTAL TV SATELITAL</a></li>
-                    <li><a href="../html/adminFactIntegracionEdi.html">GESTOR DE TICKETS (OUTICKETS)</a></li>
-                    <li><a href="../html/adminFactEsquema.html">NAGIOS<br>Herramienta de Monitoreo</a></li>
+                    <li><a href="#">CRM</a></li>
+                    <li><a href="#">PORTAL HCM</a></li>
+                    <li><a href="#">PORTAL TV SATELITAL</a></li>
+                    <li><a href="#">GESTOR DE TICKETS (OUTICKETS)</a></li>
+                    <li><a href="#">NAGIOS<br>Herramienta de Monitoreo</a></li>
                 </ul>
             </li>
             <!--<li><a href="#" class="serv-btn">Facturación<span class="second">&#x021D3;</span></a>

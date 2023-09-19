@@ -25,8 +25,8 @@
                 <ul class="feat-show">
                     <li><a href="../dataTables/organigrama.php">Organigrama</a></li>
                     <li><a href="../html/adminFactMenuServidores.html">Servidores</a></li>
-                    <!--<li><a href="../html/adminFactAplicaciones.html">Aplicaciones</a></li>-->
                     <li><a href="../html/adminFactGraficos.html">Diapositivas</a></li>
+                    <li><a href="../html/adminfactChecklistCAPI.html">CheckList aplicativos  CAPI</a></li>
                     <!--<li><a href="../html/adminFactIntegracionEdi.html">Edi</a></li>
                     <li><a href="../html/adminFactEsquema.html">Integración</a></li>-->
                 </ul>
@@ -40,11 +40,9 @@
                     <li><a href="../html/adminFactIncidencias.html">Incidencias</a></li>
                     <li><a href="../html/adminFactStatus.html">Status</a></li>
                     <li><a href="../html/adminFactDocMenu.html">Control-M Job's</a></li>
+                    <li><a href="../html/adminFactReplicaDaP.html">Replicate Tablas</a></li>
                 </ul>
             </li>
-            <!--<li><a href="../html/adminFactReplicateDaP.html">Proc. Replicate Tablas Des. a Prod. I</a></li>-->
-            <li><a href="../html/adminFactReplicaDaP.html">Replicate Tablas</a></li>
-            <li><a href="../html/adminfactChecklistCAPI.html">CheckList para recibir aplicativos en CAPI</a></li>
             <li><a href="../html/Menu_Main1.html">Mainframe</a></li>
             <!--<li><a href="https://ss64.com/" target="_blank" class="bg-linux">
                     <img style="width: 50px; border-radius: 50%;" src="../img/linux.png" alt="Linux" /><span
