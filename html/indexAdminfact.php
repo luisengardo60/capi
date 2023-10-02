@@ -25,8 +25,8 @@
                 <ul class="feat-show">
                     <li><a href="../dataTables/organigrama.php">Organigrama</a></li>
                     <li><a href="../html/adminFactMenuServidores.html">Servidores</a></li>
-                    <!--<li><a href="../html/adminFactAplicaciones.html">Aplicaciones</a></li>-->
                     <li><a href="../html/adminFactGraficos.html">Diapositivas</a></li>
+                    <li><a href="../html/adminfactChecklistCAPI.html">CheckList aplicativos  CAPI</a></li>
                     <!--<li><a href="../html/adminFactIntegracionEdi.html">Edi</a></li>
                     <li><a href="../html/adminFactEsquema.html">Integración</a></li>-->
                 </ul>
@@ -43,6 +43,7 @@
                     <li><a href="../html/adminFactReplicaDaP.html">Replicate Tablas</a></li>
                 </ul>
             </li>
+<<<<<<< HEAD
             <li><a href="#" class="serv-btn">Varios<span class="second">&#x021D3;</span></a>
                 <ul class="serv-show">
                     <li><a href="../html/adminfactChecklistCAPI.html">CheckList para recibir aplicativos en CAPI</a></li>
@@ -50,6 +51,10 @@
                 </ul>
             </li>        
                     <!--<li><a href="https://ss64.com/" target="_blank" class="bg-linux">
+=======
+            <li><a href="../html/Menu_Main1.html">Mainframe</a></li>
+            <!--<li><a href="https://ss64.com/" target="_blank" class="bg-linux">
+>>>>>>> 066165caa141fe9ab0408f857080cecb33c92c8f
                     <img style="width: 50px; border-radius: 50%;" src="../img/linux.png" alt="Linux" /><span
                         class="segundo">Manual Online</span></a></li>
             <li><a href="https://www.bancodevenezuela.com/" target="_blank">

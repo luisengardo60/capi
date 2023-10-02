@@ -23,10 +23,9 @@
             <li><a href="../inicio.php"><img src="../img/menu_inicio6.jpg" alt="C.A.P.I" style="padding-left:5x;padding-right:1px;padding-top: 1px; border-radius: 50px; float:center; width: 80px; height: 80px; background-color:green"></a></li>
             <li><a href="#" class="feat-btn">Recaudación Facturación Maiguialida Bello<br><br><span class="first">&#x021D3; </span></a>
                 <ul class="feat-show">
-                    <li><a href="../dataTables/organigrama.php">RECARGA</a></li>
-                    <li><a href="../html/adminFactMenuServidores.html">RED DIGITAL</a></li>
-                    <!--<li><a href="../html/adminFactAplicaciones.html">Aplicaciones</a></li>-->
-                    <li><a href="../html/adminFactGraficos.html">SALIDAS DE FACTURAS</a></li>
+                    <li><a href="#">RECARGA</a></li>
+                    <li><a href="#">RED DIGITAL</a></li>
+                    <li><a href="#">SALIDAS DE FACTURAS</a></li>
                     <!--<li><a href="../html/adminFactIntegracionEdi.html">README<br>Seguimiento de Proyectos</a></li>
                     <li><a href="../html/adminFactEsquema.html">CHAT en linea</a></li>
                 </ul>
