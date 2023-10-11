@@ -2,7 +2,7 @@ body {
     background-color: black;
     font-family: "Sofia", sans-serif;
     margin: 0%;
-    padding: 4%;
+    padding: 2%;
 }
 
 a {
@@ -19,11 +19,15 @@ a {
 a:hover {
     color: yellow;
 }
+
+p {
+    letter-spacing: 1px; font-size: 1.4em;
+}
 div {
     background-color: white;
-    width: 1300px;
+    width: 1450px;
     border: 10px solid burlywood;
-    padding: 1px;
-    margin: 2px;
-    text-align: justify;
+    padding: 12px;
+    margin: 10px;
+    text-align:left;
 }
