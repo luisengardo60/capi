@@ -21,14 +21,13 @@
         <!--<div class="text"><a href="../html/index.html">C.A.P.I.</a></div>-->
         <ul>
             <li><a href="../inicio.php"><img src="../img/menu_inicio6.jpg" alt="C.A.P.I" style="padding-left:5x;padding-right:1px;padding-top: 1px; border-radius: 50px; float:center; width: 80px; height: 80px; background-color:green"></a></li>
-            <li><a href="#" class="feat-btn">Adminfact<span class="first">&#x021D3; </span></a>
+            <li><a href="#" class="feat-btn">Adminfact<br>Fritne Blanco<span class="first">&#x021D3; </span></a>
                 <ul class="feat-show">
                     <li><a href="../dataTables/organigrama.php">Organigrama</a></li>
                     <li><a href="../html/adminFactMenuServidores.html">Servidores</a></li>
                     <li><a href="../html/adminFactGraficos.html">Diapositivas</a></li>
                     <li><a href="../html/adminfactChecklistCAPI.html">CheckList aplicativos  CAPI</a></li>
-                    <!--<li><a href="../html/adminFactIntegracionEdi.html">Edi</a></li>
-                    <li><a href="../html/adminFactEsquema.html">Integración</a></li>-->
+                    <li><a href="../html/adminFactModuloKenan.html">Módulo Kenan User Security (KUS)</a></li>
                 </ul>
             </li>
             <li><a href="#" class="serv-btn">Facturación<span class="second">&#x021D3;</span></a>
@@ -53,7 +52,7 @@
             <li><a href="https://www.mercantilbanco.com/" target="_blank">
                     <img class="mercantil" src="../img/mercantl.jpg" alt="Mercantil Banco" /><span class="segundo">Banco
                         Mercantil</span></a></li>-->
-        </ul>
+                </ul>
     </nav>
     <?php include '../titulo/titulo1.html' ?><br><br><br><br>
 
